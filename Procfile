@@ -1,1 +1,1 @@
-worker: VAMPBOT_run.py
+worker: VampBotrun.py
