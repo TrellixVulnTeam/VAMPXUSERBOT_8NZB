@@ -23,7 +23,7 @@ handler = Var.CMD_HNDLR if Var.CMD_HNDLR else r"\."
 sudo_hndlr = Var.SUDO_HNDLR if Var.SUDO_HNDLR else "!"
 
 
-def lightning_cmd(**args):
+def VAMPBOT_cmd(**args):
     args["func"] = lambda e: e.via_bot_id is None
 
     pattern = args.get("pattern", None)
@@ -56,7 +56,7 @@ def lightning_cmd(**args):
         args["chats"] = black_list_chats
 
     return events.NewMessage(**args)
-def lightning_cmd(**args):
+def VAMPBOT_cmd(**args):
     args["func"] = lambda e: e.via_bot_id is None
 
     pattern = args.get("pattern", None)

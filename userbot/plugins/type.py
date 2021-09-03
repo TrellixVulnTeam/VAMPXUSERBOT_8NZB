@@ -3,10 +3,10 @@
 # (c) Shrimadhav U K
 import asyncio
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="typing (.*)"))
+@borg.on(VAMPBOT_cmd(pattern="typing (.*)"))
 async def _(event):
     if event.fwd_from:
         return

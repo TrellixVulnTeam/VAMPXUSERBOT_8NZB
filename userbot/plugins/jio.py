@@ -8,10 +8,10 @@ Available Commands:
 
 import asyncio
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern=r"jio"))
+@borg.on(VAMPBOT_cmd(pattern=r"jio"))
 async def _(event):
 
     if event.fwd_from:

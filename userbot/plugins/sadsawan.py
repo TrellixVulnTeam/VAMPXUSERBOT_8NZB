@@ -4,10 +4,10 @@ type `.sadsawan2` and to see the fun.
 """
 import asyncio
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="sad1 ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="sad1 ?(.*)"))
 async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
         await event.edit("एक धोखा खाकर रुक गए.. ")

@@ -4,10 +4,10 @@
 
 from telethon.tl.functions.messages import SaveDraftRequest
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="chain"))
+@borg.on(VAMPBOT_cmd(pattern="chain"))
 async def _(event):
     await event.edit("Counting...")
     count = -1

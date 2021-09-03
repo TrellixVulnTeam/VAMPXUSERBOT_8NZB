@@ -11,7 +11,7 @@ from userbot import CMD_HELP, bot
 from userbot import bot as borg
 from userbot.utils import *
 import asyncio
-from userbot.events import lightning_cmd
+from userbot.events import VAMPBOT_cmd
 config=Config
 
 requirements_path = path.join(
@@ -19,8 +19,8 @@ requirements_path = path.join(
 
 HEROKU_API_KEY = config.HEROKU_API_KEY
 HEROKU_APP_NAME = config.HEROKU_APP_NAME
-GIT_REPO_NAME = "Black-lightning"
-UPSTREAM_REPO_URL = "https://github.com/Keinshin/Black-Lightning"
+GIT_REPO_NAME = "VAMPUSERBOT"
+UPSTREAM_REPO_URL = "https://github.com/D15H4NT0P/VAMPUSERBOT"
 
 async def gen_chlog(repo, diff):
     ch_log = ''
@@ -43,7 +43,7 @@ async def updateme_requirements():
         return repr(e)
 
 
-@borg.on(lightning_cmd(pattern="update ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="update ?(.*)"))
 async def upstream(ups):
     "For .update command, check if the bot is up to date, update if specified"
     await ups.edit("** Checking for new updates 🧐🧐**")
@@ -129,7 +129,7 @@ async def upstream(ups):
     else:
         await ups.edit('`Updating your` 𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 `please wait for a while`')
         await asyncio.sleep(4)
-        await ups.edit('Updated Sur✨\nRestarting it please have patience and enjoy botless life for a while\nIncase restart structs join [𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/lightning_support_group) ')
+        await ups.edit('Updated Sur✨\nRestarting it please have patience and enjoy botless life for a while\nIncase restart structs join [𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/VAMPBOT_support) ')
         await borg.disconnect()
     os.execl(sys.executable, sys.executable, *sys.argv)
     # You probably don't need it but whatever
@@ -172,7 +172,7 @@ async def upstream(ups):
             repo.__del__()
             return
         await ups.edit('`Sync Verified Successfully 🙂🙂\n'
-                       'Restarting, please wait a min ,then type .alive to check if I alive !! Else Go to [𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/lightning_support_group)`')
+                       'Restarting, please wait a min ,then type .alive to check if I alive !! Else Go to [𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/VAMPBOT_support)`')
     else:
         # Classic Updater, pretty straightforward.
         try:

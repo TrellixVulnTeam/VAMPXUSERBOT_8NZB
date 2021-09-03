@@ -9,10 +9,10 @@ By:- @Zero_cool7870
 
 import os
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="ls ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="ls ?(.*)"))
 async def lst(event):
     if event.fwd_from:
         return

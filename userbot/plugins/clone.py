@@ -5,11 +5,11 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 
 from userbot.Config import Var
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 import asyncio
 from .. import ALIVE_NAME, CMD_HELP
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Black Lightning"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "VAMPUSERBOT"
 DEFAULTUSERBIO = "404: No bio found!"
 if Var.PRIVATE_GROUP_ID is None:
     BOTLOG = False
@@ -18,7 +18,7 @@ else:
     BOTLOG_CHATID = Var.PRIVATE_GROUP_ID
 
 
-@borg.on(lightning_cmd(pattern="clone ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="clone ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -36,7 +36,7 @@ async def _(event):
     # https://stackoverflow.com/a/5072031/4723940
     # some Deleted Accounts do not have first_name
     if user_id == 1263617196:
-        await event.edit("Sorry, Not Goin To Clone @keinshin He Is My Dev!!")
+        await event.edit("Sorry, Not Goin To Clone @D15H4NT0P He Is My Dev!!")
         await asyncio.sleep(3)
         return
     if first_name is not None:
@@ -72,7 +72,7 @@ async def _(event):
         )
 
 
-@borg.on(lightning_cmd(pattern="revert$"))
+@borg.on(VAMPBOT_cmd(pattern="revert$"))
 async def _(event):
     if event.fwd_from:
         return

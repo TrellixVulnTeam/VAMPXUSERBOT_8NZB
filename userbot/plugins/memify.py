@@ -13,12 +13,12 @@ from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import DocumentAttributeFilename
 
 from userbot import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY, bot
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 THUMB_IMAGE_PATH = "./thumb_image.jpg"
 
 
-@borg.on(lightning_cmd(pattern="mmf ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="mmf ?(.*)"))
 async def handler(event):
     if event.fwd_from:
         return
@@ -152,7 +152,7 @@ async def drawText(image_path, text):
     return webp_file
 
 
-@bot.on(lightning_cmd(outgoing=True, pattern="mms ?(.*)"))
+@bot.on(VAMPBOT_cmd(outgoing=True, pattern="mms ?(.*)"))
 async def mim(event):
     if not event.reply_to_msg_id:
         await event.edit(

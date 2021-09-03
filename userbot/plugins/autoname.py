@@ -6,14 +6,14 @@ import time
 from telethon.errors import FloodWaitError
 from telethon.tl import functions
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 from userbot import ALIVE_NAME, CMD_HELP
 
 DEL_TIME_OUT = 60
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Lightning"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "VAMPBOT_"
 
 
-@borg.on(lightning_cmd(pattern="autoname"))  # pylint:disable=E0602
+@borg.on(VAMPBOT_cmd(pattern="autoname"))  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return

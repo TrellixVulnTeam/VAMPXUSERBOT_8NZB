@@ -5,10 +5,10 @@ Dont edit credits """
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 from userbot import CMD_HELP
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("tti ?(.*)"))
+@borg.on(VAMPBOT_cmd("tti ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -35,7 +35,7 @@ async def _(event):
             await event.edit("**Error:** `unblock` @HK_tiktok_BOT `and retry!`")
 
 
-@borg.on(lightning_cmd("ttv ?(.*)"))
+@borg.on(VAMPBOT_cmd("ttv ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -62,7 +62,7 @@ async def _(event):
             await event.edit("**Error:** `unblock` @HK_tiktok_BOT `and retry!`")
 
 
-@borg.on(lightning_cmd("wttv ?(.*)"))
+@borg.on(VAMPBOT_cmd("wttv ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

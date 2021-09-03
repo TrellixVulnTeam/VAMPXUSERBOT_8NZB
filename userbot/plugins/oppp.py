@@ -6,9 +6,9 @@
 #, plz keep credits of Rishisuperyo ⚡
 #Animation by kiddo😎
 from telethon import events
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 from userbot import CMD_HELP
-@borg.on(lightning_cmd(pattern=r"^.oppp", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern=r"^.oppp", outgoing=True))
 async def hapy(event):
 
      a="░█▀▀▀█  \n░█──░█\n░█──░█ \n░█──░█\n░█▄▄▄█\n\n░█▀▀▀█ \n░█──░█\n░█▀▀▀▀ \n░█\n░"

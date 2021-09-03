@@ -4,10 +4,10 @@ from datetime import datetime
 
 import requests
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="currency (.*)"))
+@borg.on(VAMPBOT_cmd(pattern="currency (.*)"))
 async def _(event):
     if event.fwd_from:
         return

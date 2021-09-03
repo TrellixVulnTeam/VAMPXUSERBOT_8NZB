@@ -1,6 +1,6 @@
 {
-    "name": "Black Lightning - UserBot",
-    "description": "An advanced Telethon Userbot, from @keinshin",
+    "name": "VAMPUSERBOT - UserBot",
+    "description": "An advanced Telethon Userbot, from @D15H4NT0P",
     "logo": "https://telegra.ph/file/d8d194c18562472a7c1f1.jpg",
     "keywords": [
      "telegram",
@@ -9,9 +9,9 @@
      "modular",
      "productivity"
     ],
-    "repository": "https://github.com/KeinShin/Black-Lightning",
-    "website": "https://github.com/KeinShin/Black-Lightning",
-    "success_url": "https://t.me/blacklightningot",
+    "repository": "https://github.com/D15H4NT0P/VAMPUSERBOT",
+    "website": "https://github.com/D15H4NT0P/VAMPUSERBOT",
+    "success_url": "https://t.me/VAMPBOT_official",
     "stack": "container",
     "env": {
      "APP_ID": {
@@ -23,7 +23,7 @@
       "value": ""
      },
      "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally or https://replit.com/@Paramatin/Lightning-Repl#main.py online.",
+      "description": "Get this value by running python3 telesetup.py locally or https://replit.com/@Paramatin/VAMPBOT_-Repl#main.py online.",
       "value": ""
      },
       "CMD_HNDLR": {
@@ -36,7 +36,7 @@
       "value": "",
       "required": true
      },
-      "LIGHTNING_ALV_IMG": {
+      "VAMPBOT_ALV_IMG": {
       "description": "To add another Alive pic, Leave blank for default. ",
       "value": "",
       "required": false

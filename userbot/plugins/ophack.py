@@ -1,8 +1,8 @@
 from telethon import events
 import asyncio
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 from userbot import CMD_HELP
-@borg.on(lightning_cmd(pattern=r"ophack", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern=r"ophack", outgoing=True))
 async def hapy(event):
       a="Starting Op hack😎⚡ [/]"
       await event.edit(a)

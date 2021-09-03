@@ -19,16 +19,16 @@
 import asyncio
 from userbot import ALIVE_NAME
 from userbot import CMD_HELP
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 from userbot import bot 
 from userbot.thunderconfig import Config
 from var import Var 
-lightning = ALIVE_NAME
-@borg.on(lightning_cmd("superfban ?(.*)"))
+VAMPBOT_ = ALIVE_NAME
+@borg.on(VAMPBOT_cmd("superfban ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
-    await event.edit(f"**Superfban coming in order of {lightning}**...")
+    await event.edit(f"**Superfban coming in order of {VAMPBOT_}**...")
     fedList = []
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
@@ -50,7 +50,7 @@ async def _(event):
                 REASON = arg[2]
             else:
                 FBAN = arg[1]
-                REASON = " #Superfban_Lightning_Userbot"
+                REASON = " #Superfban_VAMPBOT_Userbot"
         else:
             FBAN = previous_message.sender_id
             REASON = event.text.split(" ", maxsplit=1)[1]
@@ -63,7 +63,7 @@ async def _(event):
             REASON = arg[2]
         else:
             FBAN = arg[1]
-            REASON = " #Superfban_Lightning_Userbot "
+            REASON = " #Superfban_VAMPBOT_Userbot "
     try:
         int(FBAN)
 # Dear kanger if you remove id or username which is given below so this plugin will not work...
@@ -71,7 +71,7 @@ async def _(event):
             await event.edit("Sorry dear but you are trying to ban GOD....")
             return
     except BaseException:
-        if FBAN == "@hacker11000" or FBAN == "@paramatin7" or FBAN == "@keinshin" :
+        if FBAN == "@hacker11000" or FBAN == "@paramatin7" or FBAN == "@D15H4NT0P" :
             await event.edit("Sorry Dear but you are trying to ban God....")
             return
     if Config.PM_LOGGR_BOT_API_ID  :
@@ -107,7 +107,7 @@ async def _(event):
                     else:
                         return
                 if len(fedList) == 0:
-                    await event.edit(f"Checking feds of **{lightning}**\n wait **({a+1}/3)**...")
+                    await event.edit(f"Checking feds of **{VAMPBOT_}**\n wait **({a+1}/3)**...")
                 else:
                     break
         else:
@@ -131,7 +131,7 @@ async def _(event):
         if len(fedList) == 0:
             await event.edit("Something went wrong.")
             return
-    await event.edit(f"BL banning you in **{len(fedList)}** for **{lightning}** .")
+    await event.edit(f"BL banning you in **{len(fedList)}** for **{VAMPBOT_}** .")
     try:
         await bot.send_message(chat, f"/start")
     except BaseException:
@@ -153,17 +153,17 @@ async def _(event):
         await bot.send_message(chat, f"/fban {FBAN} {REASON}")
         await asyncio.sleep(3)
     await event.edit(
-        f"Superfban completed, Affected **{len(fedList) - exCount}** feds.\n\n#Lightning_Userbot"
+        f"Superfban completed, Affected **{len(fedList) - exCount}** feds.\n\n#VAMPBOT_Userbot"
     )
 
 
 
 
-@borg.on(lightning_cmd("superunfban ?(.*)"))
+@borg.on(VAMPBOT_cmd("superunfban ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
-    await event.edit(f"**Bl unfban you in order of {lightning}**...")
+    await event.edit(f"**Bl unfban you in order of {VAMPBOT_}**...")
     if event.reply_to_msg_id:
         previous_message = await event.get_reply_message()
         FBAN = previous_message.sender_id
@@ -195,7 +195,7 @@ async def _(event):
                 else:
                     return
                 if len(fedList) == 0:
-                    await event.edit(f"Wait {lightning} ({a+1}/3)...")
+                    await event.edit(f"Wait {VAMPBOT_} ({a+1}/3)...")
                 else:
                     break
     else:
@@ -217,7 +217,7 @@ async def _(event):
         elif In:
             tempFedId += x
 
-    await event.edit(f"UNFBANNING IN {len(fedList)} FEDS BY {lightning}.")
+    await event.edit(f"UNFBANNING IN {len(fedList)} FEDS BY {VAMPBOT_}.")
     try:
         await bot.send_message(chat, f"/start")
     except BaseException:
@@ -229,7 +229,7 @@ async def _(event):
         await asyncio.sleep(5)
         await bot.send_message(chat, f"/unfban {FBAN}")
         await asyncio.sleep(5)
-    await event.edit(f"Superfban cmpleted Affected {len(fedList)} Feds by {lightning}.\n\n #Lightning_userbot")
+    await event.edit(f"Superfban cmpleted Affected {len(fedList)} Feds by {VAMPBOT_}.\n\n #VAMPBOT_userbot")
 
 
 

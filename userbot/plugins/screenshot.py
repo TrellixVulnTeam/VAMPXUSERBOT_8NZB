@@ -8,10 +8,10 @@ from datetime import datetime
 
 from selenium import webdriver
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="screenshot (.*)"))
+@borg.on(VAMPBOT_cmd(pattern="screenshot (.*)"))
 async def _(event):
     if event.fwd_from:
         return

@@ -7,13 +7,13 @@ Available Commands:
 
 import asyncio
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 from userbot import AUTONAME
 
 DEFAULTUSER = str(AUTONAME) if AUTONAME else "Black Lighntnig"
 
 
-@borg.on(lightning_cmd(pattern=r"deploy"))
+@borg.on(VAMPBOT_cmd(pattern=r"deploy"))
 async def _(event):
 
     if event.fwd_from:
@@ -29,7 +29,7 @@ async def _(event):
     await event.edit("Deploying...")
 
     animation_chars = [
-        "**Heroku Connecting To Latest Github Build (Anmol-dot283/Black Lightning)**",
+        "**Heroku Connecting To Latest Github Build (Anmol-dot283/VAMPUSERBOT)**",
         "**Build started by user** **{DEFAULTUSER}**",
         "**Deploy** `535a74f0` **by user** **{MY BOSS}**",
         "**Restarting Heroku Server...**",
@@ -38,8 +38,8 @@ async def _(event):
         "**Process exited with** `status 143`",
         "**Starting process with command** `python3 -m stdborg`",
         "**State changed from starting to up**",
-        "__INFO:Black Lightning:Logged in as 557667062__",
-        "__INFO:Black Lightning:Successfully loaded all plugins__",
+        "__INFO:VAMPUSERBOT:Logged in as 557667062__",
+        "__INFO:VAMPUSERBOT:Successfully loaded all plugins__",
         "**Build Succeeded**",
     ]
 

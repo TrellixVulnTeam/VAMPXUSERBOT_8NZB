@@ -8,10 +8,10 @@ from googletrans import LANGUAGES
 from langdetect import detect
 
 from userbot import CMD_HELP
-from userbot.utils import lightning_cmd, edit_or_reply, sudo_cmd
+from userbot.utils import VAMPBOT_cmd, edit_or_reply, sudo_cmd
 
 
-@borg.on(lightning_cmd("tr ?(.*)"))
+@borg.on(VAMPBOT_cmd("tr ?(.*)"))
 @borg.on(sudo_cmd("tr ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
@@ -36,7 +36,7 @@ async def _(event):
         translated = GoogleTranslator(source="auto", target=lan).translate(lmao_bruh)
         source_lan = LANGUAGES[after_tr_text]
         transl_lan = LANGUAGES[lan]
-        output_str = f"""**TRANSLATED SUCCESSFULLY BY BLACK LIGHTNING**
+        output_str = f"""**TRANSLATED SUCCESSFULLY BY VAMPUSERBOT**
 **Source ({source_lan})**:
 `{text}`
 **Translation ({transl_lan})**:

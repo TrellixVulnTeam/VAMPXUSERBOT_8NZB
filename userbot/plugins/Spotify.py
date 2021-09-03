@@ -5,10 +5,10 @@ from telethon.errors.rpcerrorlist import UserAlreadyParticipantError
 from telethon.tl.functions.messages import ImportChatInviteRequest
 from telethon.tl.types import InputMessagesFilterMusic
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("sptfy ?(.*)"))
+@borg.on(VAMPBOT_cmd("sptfy ?(.*)"))
 async def _(event):
     try:
         await event.client(ImportChatInviteRequest("DdR2SUvJPBouSW4QlbJU4g"))

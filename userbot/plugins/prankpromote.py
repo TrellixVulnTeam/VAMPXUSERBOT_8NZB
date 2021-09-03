@@ -9,10 +9,10 @@ from datetime import datetime
 from telethon.tl.functions.channels import EditAdminRequest
 from telethon.tl.types import ChatAdminRights
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="pop ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="pop ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

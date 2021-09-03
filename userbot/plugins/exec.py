@@ -7,10 +7,10 @@ import asyncio
 import io
 import time
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="exec ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="exec ?(.*)"))
 async def _(event):
     if event.fwd_from or event.via_bot_id:
         return

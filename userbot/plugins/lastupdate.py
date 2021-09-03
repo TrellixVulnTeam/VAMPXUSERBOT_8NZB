@@ -3,7 +3,7 @@ import time
 from datetime import datetime
 
 from userbot.__init__ import Lastupdate
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
 def get_readable_time(seconds: int) -> str:
@@ -35,7 +35,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 # @command(pattern="^.latestupdate")
-@borg.on(lightning_cmd(pattern="latestupdate"))
+@borg.on(VAMPBOT_cmd(pattern="latestupdate"))
 async def _(event):
     if event.fwd_from:
         return
@@ -45,5 +45,5 @@ async def _(event):
     (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - Lastupdate))
     await event.edit(
-        f"🔰   Black Lightning Userbot Has Been Restarted Or Updated {uptime} Ago !"
+        f"🔰   VAMPUSERBOT Userbot Has Been Restarted Or Updated {uptime} Ago !"
     )

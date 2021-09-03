@@ -1,8 +1,8 @@
 from userbot import CMD_HELP, bot
-from userbot.utils import lightning_cmd, sudo_cmd
+from userbot.utils import VAMPBOT_cmd, sudo_cmd
 import asyncio
 @bot.on(sudo_cmd(pattern="detailed ?(.*)", allow_sudo=True))
-@bot.on(lightning_cmd(pattern="detailed ?(.*)"))
+@bot.on(VAMPBOT_cmd(pattern="detailed ?(.*)"))
 async def _(event):
     help_plugs = event.pattern_match.group(1).lower()
     if help_plugs:

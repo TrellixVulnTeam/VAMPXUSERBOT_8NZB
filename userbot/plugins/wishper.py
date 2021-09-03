@@ -3,12 +3,12 @@
 from telethon import events
 from asyncio import sleep
 import os, sys, random, re
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 from userbot import bot
 
 # By Team DC 
 
-@borg.on(lightning_cmd(pattern="wspr ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="wspr ?(.*)"))
 async def wspr(event):
     if event.fwd_from:
         return

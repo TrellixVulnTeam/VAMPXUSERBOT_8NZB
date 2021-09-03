@@ -10,7 +10,7 @@ import urllib
 import requests
 from telethon.tl import functions
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 COLLECTION_STRING = [
     "awesome-batman-wallpapers",
@@ -38,7 +38,7 @@ async def animepp():
     urllib.request.urlretrieve(fy, "donottouch.jpg")
 
 
-@borg.on(lightning_cmd(pattern="batmanpfp ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="batmanpfp ?(.*)"))
 async def main(event):
     await event.edit("**Starting batman Profile Pic.**")  # Owner @NihiNivi
     while True:

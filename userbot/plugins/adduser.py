@@ -3,10 +3,10 @@ Syntax: .edd <User(s)>"""
 
 from telethon import functions
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="edd ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="edd ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

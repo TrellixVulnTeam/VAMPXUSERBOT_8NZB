@@ -2,10 +2,10 @@
 Syntax: .id"""
 from telethon.utils import pack_bot_file_id
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("id"))
+@borg.on(VAMPBOT_cmd("id"))
 async def _(event):
     if event.fwd_from:
         return

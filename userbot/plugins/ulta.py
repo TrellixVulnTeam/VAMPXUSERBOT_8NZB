@@ -2,12 +2,12 @@ import asyncio
 from datetime import datetime
 from userbot import bot
 from .. import ALIVE_NAME, CMD_HELP
-from ..utils import lightning_cmd, edit_or_reply
+from ..utils import VAMPBOT_cmd, edit_or_reply
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else None
 
 
-@borg.on(lightning_cmd(pattern=f"hbping$", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern=f"hbping$", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return
@@ -55,7 +55,7 @@ async def _(event):
     )
 
 
-@borg.on(lightning_cmd(pattern="ping$"))
+@borg.on(VAMPBOT_cmd(pattern="ping$"))
 async def _(event):
     if event.fwd_from:
         return

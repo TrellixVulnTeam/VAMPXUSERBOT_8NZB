@@ -1,9 +1,9 @@
 import pyshorteners
 
-from userbot.utils import lightning_cmd, sudo_cmd
+from userbot.utils import VAMPBOT_cmd, sudo_cmd
 
 
-@borg.on(lightning_cmd(pattern="urlshort (.*)"))
+@borg.on(VAMPBOT_cmd(pattern="urlshort (.*)"))
 @borg.on(sudo_cmd(pattern="urlshort (.*)", allow_sudo=True))
 async def vom(event):
     try:

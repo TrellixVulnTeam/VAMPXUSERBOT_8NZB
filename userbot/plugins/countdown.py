@@ -4,10 +4,10 @@ import asyncio
 
 from telethon import events
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="(f?c)d "))
+@borg.on(VAMPBOT_cmd(pattern="(f?c)d "))
 async def timer_blankx(e):
 
     txt = e.text[4:] + "\nDeleting in "
@@ -33,7 +33,7 @@ async def timer_blankx(e):
         await e.edit(txt + "NaN")
 
 
-@borg.on(lightning_cmd(pattern="(f?s)cd "))
+@borg.on(VAMPBOT_cmd(pattern="(f?s)cd "))
 async def timer_blankx(e):
 
     txt = e.text[4:] + "\nDeleting in "

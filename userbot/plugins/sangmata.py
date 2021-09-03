@@ -1,10 +1,10 @@
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("sg ?(.*)"))
+@borg.on(VAMPBOT_cmd("sg ?(.*)"))
 async def _(event):
 
     if event.fwd_from:
@@ -66,7 +66,7 @@ async def _(event):
             await event.edit(f"{response.message.message}")
 
 
-@borg.on(lightning_cmd("fakemail ?(.*)"))
+@borg.on(VAMPBOT_cmd("fakemail ?(.*)"))
 async def _(event):
 
     if event.fwd_from:
@@ -128,7 +128,7 @@ async def _(event):
             await event.edit(f"{response.message.message}")
 
 
-@borg.on(lightning_cmd("ub ?(.*)"))
+@borg.on(VAMPBOT_cmd("ub ?(.*)"))
 async def _(event):
 
     if event.fwd_from:
@@ -190,7 +190,7 @@ async def _(event):
             await event.edit(f"{response.message.message}")
 
 
-@borg.on(lightning_cmd("gid ?(.*)"))
+@borg.on(VAMPBOT_cmd("gid ?(.*)"))
 async def _(event):
 
     if event.fwd_from:
@@ -252,7 +252,7 @@ async def _(event):
             await event.edit(f"{response.message.message}")
 
 
-@borg.on(lightning_cmd("urban ?(.*)"))
+@borg.on(VAMPBOT_cmd("urban ?(.*)"))
 async def _(event):
 
     if event.fwd_from:

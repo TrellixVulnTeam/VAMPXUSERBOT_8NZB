@@ -32,7 +32,7 @@ from telethon.tl.types import (
 )
 
 from userbot import BOTLOG, BOTLOG_CHATID, CMD_HELP
-from userbot.utils import lightning_cmd, errors_handler, register
+from userbot.utils import VAMPBOT_cmd, errors_handler, register
 
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`The image is too small`"
@@ -81,7 +81,7 @@ UNMUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
 
 
 # @register(outgoing=True, pattern="^.setgpic$")
-@borg.on(lightning_cmd(pattern=r"setgpic"))
+@borg.on(VAMPBOT_cmd(pattern=r"setgpic"))
 async def set_group_photo(gpic):
     """ For .setgpic command, changes the picture of a group """
     if gpic.fwd_from:
@@ -121,7 +121,7 @@ async def set_group_photo(gpic):
 
 
 # @register(outgoing=True, pattern="^.promote(?: |$)(.*)")
-@borg.on(lightning_cmd(pattern=r"promote(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"promote(?: |$)(.*)"))
 
 async def promote(promt):
     if promt.fwd_from:
@@ -150,7 +150,7 @@ async def promote(promt):
     await promt.edit("`Promoting...Wait`")
     user, rank = await get_user_from_event(promt)
     if not rank:
-        rank = "Black Lightning"  # Just in case.
+        rank = "VAMPUSERBOT"  # Just in case.
     if user:
         pass
     else:
@@ -178,7 +178,7 @@ async def promote(promt):
 
 
 # @register(outgoing=True, pattern="^.demote(?: |$)(.*)")
-@borg.on(lightning_cmd(pattern=r"demote(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"demote(?: |$)(.*)"))
 
 async def demote(dmod):
     if dmod.fwd_from:
@@ -234,7 +234,7 @@ async def demote(dmod):
 
 
 # @register(outgoing=True, pattern="^.ban(?: |$)(.*)")
-@borg.on(lightning_cmd(pattern=r"ban(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"ban(?: |$)(.*)"))
 
 async def ban(bon):
     if bon.fwd_from:
@@ -291,7 +291,7 @@ async def ban(bon):
 
 
 # @register(outgoing=True, pattern="^.unban(?: |$)(.*)")
-@borg.on(lightning_cmd(pattern=r"unban(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"unban(?: |$)(.*)"))
 
 async def nothanos(unbon):
     if unbon.fwd_from:
@@ -333,7 +333,7 @@ async def nothanos(unbon):
 
 
 # @register(outgoing=True, pattern="^.mute(?: |$)(.*)")
-@borg.on(lightning_cmd(pattern=r"mute(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"mute(?: |$)(.*)"))
 
 async def spider(spdr):
     if spdr.fwd_from:
@@ -397,7 +397,7 @@ async def spider(spdr):
 
 
 # @register(outgoing=True, pattern="^.unmute(?: |$)(.*)")
-@borg.on(lightning_cmd(pattern=r"unmute(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"unmute(?: |$)(.*)"))
 
 async def unmoot(unmot):
     if unmot.fwd_from:
@@ -485,7 +485,7 @@ async def muter(moot):
 
 
 # @register(outgoing=True, pattern="^.ungmute(?: |$)(.*)")
-@borg.on(lightning_cmd(pattern=r"ungmute(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"ungmute(?: |$)(.*)"))
 
 async def ungmoot(un_gmute):
     if un_gmute.fwd_from:
@@ -534,7 +534,7 @@ async def ungmoot(un_gmute):
 
 
 # @register(outgoing=True, pattern="^.gmute(?: |$)(.*)")
-@borg.on(lightning_cmd(pattern=r"gmute(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"gmute(?: |$)(.*)"))
 
 async def gspider(gspdr):
     if gspdr.fwd_from:
@@ -583,7 +583,7 @@ async def gspider(gspdr):
 
 
 # @register(outgoing=True, pattern="^.delusers(?: |$)(.*)")
-@borg.on(lightning_cmd(pattern=r"delusers(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"delusers(?: |$)(.*)"))
 
 async def rm_deletedacc(show):
     """ For .delusers command, list all the ghost/deleted accounts in a chat. """
@@ -659,7 +659,7 @@ async def rm_deletedacc(show):
 
 
 # @register(outgoing=True, pattern="^.adminlist$")
-@borg.on(lightning_cmd(pattern=r"adminlist"))
+@borg.on(VAMPBOT_cmd(pattern=r"adminlist"))
 @errors_handler
 async def get_admin(show):
     """ For .admins command, list all of the admins of the chat. """
@@ -682,7 +682,7 @@ async def get_admin(show):
 
 
 # @register(outgoing=True, pattern="^.pin(?: |$)(.*)")
-@borg.on(lightning_cmd(pattern=r"pin(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"pin(?: |$)(.*)"))
 @errors_handler
 async def pin(msg):
     """ For .pin command, pins the replied/tagged message on the top the chat. """
@@ -730,7 +730,7 @@ async def pin(msg):
 
 
 # @register(outgoing=True, pattern="^.kick(?: |$)(.*)")
-@borg.on(lightning_cmd(pattern=r"kick(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"kick(?: |$)(.*)"))
 @errors_handler
 async def kick(usr):
     """ For .kick command, kicks the replied/tagged person from the group. """
@@ -775,7 +775,7 @@ async def kick(usr):
 
 
 # @register(outgoing=True, pattern="^.users ?(.*)")
-@borg.on(lightning_cmd(pattern=r"users ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"users ?(.*)"))
 @errors_handler
 async def get_users(show):
   

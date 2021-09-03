@@ -35,10 +35,10 @@ KANGING_STR = [
     "Mr.Steal Your Sticker is stealing this sticker... ",
 ]
 
-lightning = Var.CUSTOM_STICKER_PACK_NAME
+VAMPBOT_ = Var.CUSTOM_STICKER_PACK_NAME
 
 
-@bot.on(lightning_cmd(outgoing=True, pattern="kang"))
+@bot.on(VAMPBOT_cmd(outgoing=True, pattern="kang"))
 @bot.on(sudo_cmd(pattern="kang", allow_sudo=True))
 async def kang(args):
     """ For .kang command, kangs stickers or creates new ones. """
@@ -103,11 +103,11 @@ async def kang(args):
                 # pack
                 emoji = splat[1]
 
-        packname = f"HB_{user.username}_lightning_{pack}"
+        packname = f"HB_{user.username}_VAMPBOT_{pack}"
         packnick = (
-            f"{lightning} Vol.{pack}"
-            if lightning
-            else f"@{user.username}'s lightning Vol.{pack}"
+            f"{VAMPBOT_} Vol.{pack}"
+            if VAMPBOT_
+            else f"@{user.username}'s VAMPBOT_ Vol.{pack}"
         )
         cmd = "/newpack"
         file = io.BytesIO()
@@ -141,9 +141,9 @@ async def kang(args):
                     pack += 1
                     packname = f"HB_{user.username}_by_{user.username}_{pack}"
                     packnick = (
-                        f"{lightning} Vol.{pack}"
-                        if lightning
-                        else f"@{user.username}'s lightning Vol.{pack}"
+                        f"{VAMPBOT_} Vol.{pack}"
+                        if VAMPBOT_
+                        else f"@{user.username}'s VAMPBOT_ Vol.{pack}"
                     )
                     await args.edit(
                         "`Switching to Pack "
@@ -293,7 +293,7 @@ async def resize_photo(photo):
     return image
 
 
-@bot.on(lightning_cmd(outgoing=True, pattern="stkrinfo"))
+@bot.on(VAMPBOT_cmd(outgoing=True, pattern="stkrinfo"))
 @bot.on(sudo_cmd(pattern="stkrinfo", allow_sudo=True))
 async def get_pack_info(event):
     if not event.is_reply:

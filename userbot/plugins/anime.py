@@ -1166,7 +1166,7 @@ slice_of_life_list = [
     "Sukimasuki ",
     "Sunny (manga) ",
     "Super Seisyun Brothers ",
-    "Sweetness and Lightning ",
+    "Sweetness and VAMPBOT_ ",
     "Sylvanian Families (OVA series) ",
     "Tamagotchi! (TV series) ",
     "Tenshi Nanka Ja Nai ",

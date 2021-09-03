@@ -12,11 +12,11 @@ from userbot.Config import Config
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
 # @borg.on(events.NewMessage(pattern=r"\.karb ", outgoing=True))
-@borg.on(lightning_cmd(pattern="karb"))
+@borg.on(VAMPBOT_cmd(pattern="karb"))
 async def carbon_api(e):
     RED = random.randint(0, 256)
     GREEN = random.randint(0, 256)
@@ -109,7 +109,7 @@ async def carbon_api(e):
         await e.client.send_file(
             e.chat_id,
             file,
-            caption="Carbonised by [Black Lightning(https://github.com/KeinShin/Black-Lightning)",
+            caption="Carbonised by [VAMPUSERBOT(https://github.com/D15H4NT0P/VAMPUSERBOT)",
             force_document=False,
             reply_to=e.message.reply_to_msg_id,
         )

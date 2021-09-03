@@ -2,10 +2,10 @@
 
 import asyncio
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="lcry"))
+@borg.on(VAMPBOT_cmd(pattern="lcry"))
 async def _(event):
 
     if event.fwd_from:

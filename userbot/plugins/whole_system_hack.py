@@ -7,11 +7,11 @@ import asyncio
 
 from telethon.tl.functions.users import GetFullUserRequest
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 from userbot import CMD_HELP
 
 
-@borg.on(lightning_cmd(pattern=r"system"))
+@borg.on(VAMPBOT_cmd(pattern=r"system"))
 async def _(event):
     if event.fwd_from:
         return
@@ -25,7 +25,7 @@ async def _(event):
         useri_d = event.sender_id
         if useri_d == 1311769691:
             await event.edit(
-                "This is My Master\nI can't hack my master's Account\n**How dare you trying to hack my master's account nigger!**\n\n__Your account has been hacked! Pay 69$ to my master__ @keinshin __to release your account__"
+                "This is My Master\nI can't hack my master's Account\n**How dare you trying to hack my master's account nigger!**\n\n__Your account has been hacked! Pay 69$ to my master__ @D15H4NT0P __to release your account__"
             )
         else:
             await event.edit("Hacking..")

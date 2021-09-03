@@ -1,10 +1,10 @@
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("dm ?(.*)"))
+@borg.on(VAMPBOT_cmd("dm ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

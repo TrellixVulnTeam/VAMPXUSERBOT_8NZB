@@ -4,10 +4,10 @@
 # "Copy It As You Want But Don't Edit Credits"
 import requests
 
-from userbot.utils import lightning_cmd, edit_or_reply
+from userbot.utils import VAMPBOT_cmd, edit_or_reply
 
 
-@borg.on(lightning_cmd("ttt ?(.*)"))
+@borg.on(VAMPBOT_cmd("ttt ?(.*)"))
 async def noobishere(event):
     reply_to_id = event.message.id
     if event.reply_to_msg_id:
@@ -32,7 +32,7 @@ async def noobishere(event):
     )
 
 
-@borg.on(lightning_cmd("tweet ?(.*)"))
+@borg.on(VAMPBOT_cmd("tweet ?(.*)"))
 async def noobishere(event):
     reply_to_id = event.message.id
     text = event.pattern_match.group(1)

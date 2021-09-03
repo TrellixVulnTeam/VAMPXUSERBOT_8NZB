@@ -6,10 +6,10 @@ from telethon.tl.types import (
     ChannelParticipantsAdmins,
 )
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("get_ad?(m)in ?(.*)"))
+@borg.on(VAMPBOT_cmd("get_ad?(m)in ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

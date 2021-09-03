@@ -6,10 +6,10 @@ Userbot module to help you manage a group
 
 from telethon.tl.types import MessageEntityMentionName
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="link(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="link(?: |$)(.*)"))
 async def permalink(mention):
     """ For .link command, generates a link to the user's PM with a custom text. """
     user, custom = await get_user_from_event(mention)

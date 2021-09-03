@@ -5,7 +5,7 @@
 import asyncio
 import random
 from userbot import ALIVE_NAME
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 #--Constants--#
 sed1 = "https://telegra.ph/file/9102e0041cf2bacffc4a8.mp4"
 sed2 = "https://telegra.ph/file/2034b44685abbc5d8db4d.mp4"
@@ -19,7 +19,7 @@ remd = bot.me.id
 cap = f"Yeah My Friend This Suprise is for you\nThanks for Being my Friend, I am Blessed With a friend like you✨\n                           ~[{DEFAULTUSER}](tg://user?id={remd})"
 #--over--#
 
-@borg.on(lightning_cmd(pattern=r"(hfd|friend|friends)$", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern=r"(hfd|friend|friends)$", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return

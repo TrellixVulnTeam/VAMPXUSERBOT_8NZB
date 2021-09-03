@@ -8,14 +8,14 @@ from datetime import datetime
 from PIL import Image
 from telegraph import Telegraph, exceptions, upload_file
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=Config.TELEGRAPH_SHORT_NAME)
 auth_url = r["auth_url"]
 
 
-@borg.on(lightning_cmd("tg (m|t) ?(.*)"))
+@borg.on(VAMPBOT_cmd("tg (m|t) ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -59,7 +59,7 @@ async def _(event):
                 ms_two = (end - start).seconds
                 os.remove(downloaded_file_name)
                 await event.edit(
-                    "Your Telegraph Link by Black Lightning https://telegra.ph{} \n ".format(
+                    "Your Telegraph Link by VAMPUSERBOT https://telegra.ph{} \n ".format(
                         media_urls[0], (ms + ms_two)
                     ),
                     link_preview=False,

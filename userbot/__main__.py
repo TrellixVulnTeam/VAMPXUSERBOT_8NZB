@@ -15,7 +15,7 @@ from userbot.utils import load_assistant, load_module, start_assistant
 TELE = Var.PRIVATE_GROUP_ID
 BOTNAME = Var.TG_BOT_USER_NAME_BF_HER
 LOAD_MYBOT = Var.LOAD_MYBOT
-sed = logging.getLogger("Black Lightning")
+sed = logging.getLogger("VAMPUSERBOT")
 
 async def add_bot(bot_token):
     await bot.start(bot_token)
@@ -27,7 +27,7 @@ async def startup_log_all_done():
     try:
         await bot.send_message(
             TELE,
-            f"**Black Lightning has been deployed.\nSend** `{CMD_HNDLR}alive` **to see if the bot is working.\n\nAdd** @{BOTNAME} **to this group and make it admin for enabling all the features of userbot**",
+            f"**VAMPUSERBOT has been deployed.\nSend** `{CMD_HNDLR}alive` **to see if the bot is working.\n\nAdd** @{BOTNAME} **to this group and make it admin for enabling all the features of userbot**",
         )
     except BaseException:
         print("Either PRIVATE_GROUP_ID is wrong or you have left the group.")
@@ -61,9 +61,9 @@ for name in files:
          load_module(shortname.replace(".py", ""))
         except Exception:
             pass
-print("Lightning has been deployed! ")
+print("VAMPBOT_ has been deployed! ")
 
-print("Setting up Lightning")
+print("Setting up VAMPBOT_")
 
 
 if Config.ENABLE_ASSISTANTBOT == "ENABLE":
@@ -79,7 +79,7 @@ if Config.ENABLE_ASSISTANTBOT == "ENABLE":
              load_assistant(shortname.replace(".py", ""))
             except Exception:
                 pass
-    sed.info("Black Lightning Has Been Deployed Successfully !")
+    sed.info("VAMPUSERBOT Has Been Deployed Successfully !")
     sed.info("╔════❰ Ⲃⲟⲧ Ⲓⲛϝⲟʀⲙⲁⲧⲓⲟⲛ ❱═❍⊱❁۪۪")
     sed.info("║┣⪼ Ⲟⲱⲛⲉʀ - ʙʟᴀᴄᴋ-ʟɪɢʜᴛɴɪɴɢ ᴜꜱᴇʀ ")
     sed.info("║┣⪼ Ⲋⲧⲁⲧυⲋ - Ⲟⲛⳑⲓⲛⲉ")
@@ -92,8 +92,8 @@ if Config.ENABLE_ASSISTANTBOT == "ENABLE":
     sed.info("║╰━━━━━━━━━━━━━━━➣ ")
     sed.info("╚══════════════════❍⊱❁۪۪")
 else:
-    sed.info("Black Lightning Has Been Installed Sucessfully !")
-    sed.info("You Can Visit @lightning_support For Any Support Or Doubts")
+    sed.info("VAMPUSERBOT Has Been Installed Sucessfully !")
+    sed.info("You Can Visit @VAMPBOT_support For Any Support Or Doubts")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()

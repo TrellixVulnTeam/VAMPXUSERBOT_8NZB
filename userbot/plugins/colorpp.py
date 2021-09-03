@@ -9,7 +9,7 @@ from pySmartDL import SmartDL
 from telethon.tl import functions
 
 from userbot import ALIVE_NAME
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 FONT_FILE_TO_USE = "Fonts/digital.ttf"
 
@@ -17,12 +17,12 @@ FONT_FILE_TO_USE = "Fonts/digital.ttf"
 DEFAULTUSER = str(ALIVE_NAME)
 
 
-@borg.on(lightning_cmd(pattern="cpp ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="cpp ?(.*)"))
 async def autopic(event):
 
     await event.edit("colour profile pic have been enabled")
 
-    downloaded_file_name = "./LIGHTNING/original_pic.png"
+    downloaded_file_name = "./VAMPBOT_/original_pic.png"
 
     downloader = SmartDL(
         Var.DOWNLOAD_PFP_URL_CLOCK, downloaded_file_name, progress_bar=False

@@ -1,14 +1,14 @@
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 from userbot import ALIVE_NAME
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 naam = str(ALIVE_NAME)
 
 bot = "@Missrose_bot"
 
 
-@borg.on(lightning_cmd("fedban ?(.*)"))
+@borg.on(VAMPBOT_cmd("fedban ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -54,7 +54,7 @@ async def _(event):
                 )
 
 
-@borg.on(lightning_cmd("unfedban ?(.*)"))
+@borg.on(VAMPBOT_cmd("unfedban ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

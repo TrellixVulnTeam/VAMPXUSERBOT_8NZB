@@ -5,13 +5,13 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 from userbot import CMD_HELP
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
 bot = "@MadBoy_Rotomgram2_Bot"
 
 
-@borg.on(lightning_cmd("weak ?(.*)"))
+@borg.on(VAMPBOT_cmd("weak ?(.*)"))
 async def _(event):
   if event.fwd_from:
       return

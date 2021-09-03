@@ -17,17 +17,17 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
 from userbot import CMD_HELP
-from userbot.utils import lightning_cmd, edit_or_reply, sudo_cmd
+from userbot.utils import VAMPBOT_cmd, edit_or_reply, sudo_cmd
 from userbot.Config import Var
 from userbot.thunderconfig import Config
 from var import Var
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
 
 
 
-@borg.on(lightning_cmd(pattern="wshot ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="wshot ?(.*)"))
 @borg.on(sudo_cmd(pattern="wshot ?(.*)", allow_sudo=True))
 async def wshot(message):
     king= message.text
@@ -93,7 +93,7 @@ async def wshot(message):
     driver.quit()
 
 
-@borg.on(lightning_cmd(pattern="lp ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="lp ?(.*)"))
 @borg.on(sudo_cmd(pattern="lp ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
@@ -121,7 +121,7 @@ async def _(event):
         await tfbro.edit(f"Something Went Wrong. MayBe Website Wrong.")
 
 
-@borg.on(lightning_cmd(pattern="bin ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="bin ?(.*)"))
 @borg.on(sudo_cmd(pattern="bin ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
@@ -144,7 +144,7 @@ async def _(event):
         await tfsir.edit("Not a Valid Bin Or Don't Have Enough Info.")
 
 
-@borg.on(lightning_cmd(pattern="iban ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="iban ?(.*)"))
 @borg.on(sudo_cmd(pattern="iban ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
@@ -169,7 +169,7 @@ async def _(event):
         await tfhm.edit(f"Invalid IBAN Or Doesn't Have Enough Info")
 
 
-@borg.on(lightning_cmd(pattern="gitdl ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="gitdl ?(.*)"))
 @borg.on(sudo_cmd(pattern="gitdl ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
@@ -194,7 +194,7 @@ async def _(event):
         )
 
 
-@borg.on(lightning_cmd(pattern="yts ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="yts ?(.*)"))
 @borg.on(sudo_cmd(pattern="yts ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:

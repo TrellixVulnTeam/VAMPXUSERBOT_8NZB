@@ -11,10 +11,10 @@ import textwrap
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterDocument
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="sticklet (.*)"))
+@borg.on(VAMPBOT_cmd(pattern="sticklet (.*)"))
 async def sticklet(event):
     R = random.randint(0, 256)
     G = random.randint(0, 256)

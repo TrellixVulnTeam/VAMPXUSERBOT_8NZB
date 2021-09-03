@@ -6,7 +6,7 @@
 import re
 
 from userbot import bot
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 IF_EMOJI = re.compile(
     "["
@@ -30,7 +30,7 @@ def deEmojify(inputString: str) -> str:
     return re.sub(IF_EMOJI, "", inputString)
 
 
-@borg.on(lightning_cmd(pattern="playxo(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="playxo(?: |$)(.*)"))
 async def nope(doit):
     ok = doit.pattern_match.group(1)
     if not ok:

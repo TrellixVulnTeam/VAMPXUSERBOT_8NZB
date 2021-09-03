@@ -10,10 +10,10 @@
 
 import asyncio
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("unoob"))
+@borg.on(VAMPBOT_cmd("unoob"))
 async def _(event):
 
     if event.fwd_from:
@@ -44,7 +44,7 @@ async def _(event):
         await asyncio.sleep(animation_interval)
 
 
-@borg.on(lightning_cmd("menoob"))
+@borg.on(VAMPBOT_cmd("menoob"))
 async def _(event):
 
     if event.fwd_from:
@@ -75,7 +75,7 @@ async def _(event):
         await asyncio.sleep(animation_interval)
 
 
-@borg.on(lightning_cmd("upro"))
+@borg.on(VAMPBOT_cmd("upro"))
 async def _(event):
 
     if event.fwd_from:
@@ -105,7 +105,7 @@ async def _(event):
         await asyncio.sleep(animation_interval)
 
 
-@borg.on(lightning_cmd("mepro"))
+@borg.on(VAMPBOT_cmd("mepro"))
 async def _(event):
 
     if event.fwd_from:

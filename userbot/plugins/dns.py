@@ -6,10 +6,10 @@ Available Commands:
 .unshort <short url>"""
 import requests
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("dns (.*)"))
+@borg.on(VAMPBOT_cmd("dns (.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -22,7 +22,7 @@ async def _(event):
         await event.edit("i can't seem to find {} on the internet".format(input_str))
 
 
-@borg.on(lightning_cmd("url (.*)"))
+@borg.on(VAMPBOT_cmd("url (.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -35,7 +35,7 @@ async def _(event):
         await event.edit("something is wrong. please try again later.")
 
 
-@borg.on(lightning_cmd("unshort (.*)"))
+@borg.on(VAMPBOT_cmd("unshort (.*)"))
 async def _(event):
     if event.fwd_from:
         return

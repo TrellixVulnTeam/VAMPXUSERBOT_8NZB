@@ -1,15 +1,15 @@
 ''' No need to kang it if you kang it without giving us credit so you are gay.
- Contributors: @keinshin & @hacker11000
-@blacklightningot'''
+ Contributors: @D15H4NT0P & @hacker11000
+@VAMPBOT_official'''
 
 from telethon.tl.types import ChannelParticipantsAdmins
 
 from userbot import CMD_HELP
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern=r"tagall", outgoing=True))
-@borg.on(lightning_cmd(pattern=r"tagall", allow_sudo=True))
+@borg.on(VAMPBOT_cmd(pattern=r"tagall", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern=r"tagall", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return
@@ -20,8 +20,8 @@ async def _(event):
     await event.reply(mentions)
 
 
-@borg.on(lightning_cmd(pattern=r"admin", outgoing=True))
-@borg.on(lightning_cmd(pattern=r"admin", allow_sudo=True))
+@borg.on(VAMPBOT_cmd(pattern=r"admin", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern=r"admin", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return

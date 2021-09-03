@@ -7,12 +7,12 @@ import time
 from uniborg.util import edit_or_reply, sudo_cmd
 
 from userbot import bot as cipherx 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 from userbot import CMD_HELP
 
 opn = []
 
-@cipherx.on(lightning_cmd(pattern="reveal"))
+@cipherx.on(VAMPBOT_cmd(pattern="reveal"))
 @cipherx.on(sudo_cmd(pattern="reveal", allow_sudo=True))
 async def _(event):
     xx = await edit_or_reply(event, "`...`")

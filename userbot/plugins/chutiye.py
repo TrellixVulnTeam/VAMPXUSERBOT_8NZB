@@ -1,18 +1,18 @@
-# By @keinshin for Black Lightning
+# By @D15H4NT0P for VAMPUSERBOT
 # If you steal this without credits You will be the geyest gey ever in the world that you will suck my dick.
 import asyncio
 
 from .. import ALIVE_NAME
-from ..utils import lightning_cmd
+from ..utils import VAMPBOT_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Unknown"
 
 
-@borg.on(lightning_cmd(pattern="chutiye$"))
+@borg.on(VAMPBOT_cmd(pattern="chutiye$"))
 async def _(event):
     if event.fwd_from:
         return
-    lightning_anmation_interval = 4
+    VAMPBOT_anmation_interval = 4
     ttl = range(0, 100)
     await event.edit("Chutiye Saade Hue...")
     chars = [
@@ -103,7 +103,7 @@ async def _(event):
 
     for i in ttl:  
 
-        await asyncio.sleep(lightning_anmation_interval)
+        await asyncio.sleep(VAMPBOT_anmation_interval)
         await event.edit(
             chars[i % 100], link_preview=True
         )  

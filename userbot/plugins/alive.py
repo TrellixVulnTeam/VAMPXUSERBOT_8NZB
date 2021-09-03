@@ -12,7 +12,7 @@ from PIL import Image
 from userbot import ALIVE_NAME, CMD_HELP, StartTime, topfunc
 from userbot.Config import Var
 from userbot.thunderconfig import Config
-from userbot.utils import lightning_cmd, edit_or_reply, sudo_cmd
+from userbot.utils import VAMPBOT_cmd, edit_or_reply, sudo_cmd
 
 ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
 if ALIVE_PIC is None:
@@ -85,7 +85,7 @@ async def reply_id(event):
         reply_to_id = event.reply_to_msg_id
     return reply_to_id
 
-@borg.on(lightning_cmd(outgoing=True, pattern="salive"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="salive"))
 @borg.on(sudo_cmd(pattern=r"salive", allow_sudo=True))
 async def amireallyalive(salive):
     """ For .alive command, check if the bot is running.  """
@@ -95,14 +95,14 @@ async def amireallyalive(salive):
         pm_caption += "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.17.5\n"
         pm_caption += "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
         pm_caption += (
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/lightning_support_channel)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/VAMPBOT_support_channel)\n"
         )
         pm_caption += (
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/lightning_support_group)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/VAMPBOT_support)\n"
         )
         pm_caption += "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://jenaatul8.wixsite.com/hellboi-atul)\n"
-        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ вℓα¢к ℓιgнтηιηg ](https://t.me/lightning_support_channel)\n"
-        pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/blacklightningot)"
+        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ вℓα¢к ℓιgнтηιηg ](https://t.me/VAMPBOT_support_channel)\n"
+        pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/VAMPBOT_official)"
         await salive.get_chat()
         await salive.delete()
         """ For .allive command, check if the bot is running.  """
@@ -127,11 +127,11 @@ async def amireallyalive(salive):
             f"**𝕄𝕪 𝔹𝕠𝕤𝕤**            : {DEFAULTUSER}\n"
             "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.17.5\n"
             "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/lightning_support_channel)\n"
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/lightning_support_group)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/VAMPBOT_support_channel)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/VAMPBOT_support)\n"
             "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://jenaatul8.wixsite.com/hellboi-atul)\n"
-            "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ вℓα¢к ℓιgнтηιηg ](https://t.me/blacklightningot)\n"
-            "[ ┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/blacklightningot)",
+            "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ вℓα¢к ℓιgнтηιηg ](https://t.me/VAMPBOT_official)\n"
+            "[ ┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/VAMPBOT_official)",
             link_preview=False,
         )
         await salive.delete()
@@ -163,14 +163,14 @@ pm_caption += f"😈ɮʟǟƈӄ ʟɨɢɦȶռɨռɢ😈       : __**{hellversion}*
 
 pm_caption += f"⚜️Sudo⚜️            : `{sudou}`\n"
 
-pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/lightning_support_group)\n"
+pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/VAMPBOT_support)\n"
 
 pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/krish1303y)\n\n"
 
-pm_caption += "    [✨REPO✨](https://github.com/KeinShin/Black-Lightningt) 🔹 [📜License📜](https://github.com/KeinShin/Black-Lightning/blob/master/LICENSE)"
+pm_caption += "    [✨REPO✨](https://github.com/D15H4NT0P/VAMPUSERBOTt) 🔹 [📜License📜](https://github.com/D15H4NT0P/VAMPUSERBOT/blob/master/LICENSE)"
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="halive$"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="halive$"))
 @borg.on(sudo_cmd(pattern="halive$", allow_sudo=True))
 async def amireallyalive(halive):
     await halive.get_chat()
@@ -184,7 +184,7 @@ async def amireallyalive(halive):
 # Credits To catbot And Sandi
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="calive$"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="calive$"))
 @borg.on(sudo_cmd(pattern="calive$", allow_sudo=True))
 async def amireallyalive(calive):
     if calive.fwd_from:
@@ -196,7 +196,7 @@ async def amireallyalive(calive):
         pm_caption = f"**{ALIVE_MSG}**\n\n"
         pm_caption += f"**{EMOJI} Database :** `{check_sgnirts}`\n"
         pm_caption += f"**{EMOJI} Telethon version :** `{version}\n`"
-        pm_caption += f"**{EMOJI} Lightning Userbot Version :** `{catversion}`\n"
+        pm_caption += f"**{EMOJI} VAMPBOT_ Userbot Version :** `{catversion}`\n"
         pm_caption += f"**{EMOJI} Python Version :** `{python_version()}\n`"
         pm_caption += f"**{EMOJI} Uptime :** `{uptime}\n`"
         pm_caption += f"**{EMOJI} Master:** {DEFAULTUSER}\n"
@@ -210,7 +210,7 @@ async def amireallyalive(calive):
             f"**{ALIVE_MSG}**\n\n"
             f"**{EMOJI} Database :** `{check_sgnirts}`\n"
             f"**{EMOJI} Telethon Version :** `{version}\n`"
-            f"**{EMOJI} Lightning Userbot Version :** `{catversion}`\n"
+            f"**{EMOJI} VAMPBOT_ Userbot Version :** `{catversion}`\n"
             f"**{EMOJI} Python Version :** `{python_version()}\n`"
             f"**{EMOJI} Uptime :** `{uptime}\n`"
             f"**{EMOJI} Master:** {DEFAULTUSER}\n",
@@ -301,7 +301,7 @@ CMD_HELP.update(
         \n\n**Syntax : **`.halive `\
         \n**Function : **__ .hell Uerbot's Alive.__\
         \n\n**Syntax : **`.alive `\
-        \n**Function : **__ .Lightning Uerbot's Alive.__\
+        \n**Function : **__ .VAMPBOT_ Uerbot's Alive.__\
         \n\n**Syntax : **`.awake `\
         \n**Function : **__ .Awake.__\
         \n\n\n**NOTE : All Credits To Thier Respective !!**"

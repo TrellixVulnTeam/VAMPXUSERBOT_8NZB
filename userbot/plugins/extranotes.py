@@ -1,7 +1,7 @@
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern=r"gaali"))
+@borg.on(VAMPBOT_cmd(pattern=r"gaali"))
 async def test(event):
     if event.fwd_from:
         return

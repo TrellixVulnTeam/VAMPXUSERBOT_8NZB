@@ -1,10 +1,10 @@
 """COMMAND : .gali"""
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("gali"))
+@borg.on(VAMPBOT_cmd("gali"))
 async def _(event):
     if event.fwd_from:
         return

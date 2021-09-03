@@ -1,5 +1,5 @@
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
@@ -11,880 +11,880 @@
 
 from telethon.tl.types import ChannelParticipantsAdmins
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 
 
-@borg.on(lightning_cmd(pattern=r"monster"))
+@borg.on(VAMPBOT_cmd(pattern=r"monster"))
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 
 async def _(event):
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
@@ -892,249 +892,249 @@ async def _(event):
     if event.fwd_from:
         return
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 
     mentions = " ⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰😈꙰꙰꙰꙰꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰😈꙰꙰꙰꙰꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰😈꙰꙰꙰꙰꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰😈꙰꙰꙰꙰꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰⃟꙰⃟꙰⃟꙰꙰"
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
@@ -1144,67 +1144,67 @@ async def _(event):
         mentions += f""
     reply_message = None
     # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
 # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 
@@ -1216,7 +1216,7 @@ async def _(event):
         await event.reply(mentions)
     await event.delete()
     # Creator------> @hacker11000
-#Userbot-------> Black Lightning Userbot
+#Userbot-------> VAMPUSERBOT Userbot
 # Don't kang without permission otherwise put credits....
 # if u kang without credit so u r world's biggest noob!.
 

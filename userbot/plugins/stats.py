@@ -2,11 +2,11 @@ from datetime import datetime
 
 from telethon.tl.types import Channel, Chat, User
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 from userbot import bot
 
 
-@bot.on(lightning_cmd(pattern=r"gstats"))
+@bot.on(VAMPBOT_cmd(pattern=r"gstats"))
 async def _(event):
     if event.fwd_from:
         return

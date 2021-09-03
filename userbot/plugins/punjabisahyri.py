@@ -8,18 +8,18 @@ import asyncio
 import random
 
 from userbot import ALIVE_NAME
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@lightning_support_group"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@VAMPBOT_support"
 
 sawan = bot.uid
 
 
-@bot.on(lightning_cmd(pattern=r"plove$", outgoing=True))
+@bot.on(VAMPBOT_cmd(pattern=r"plove$", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return
-    await event.edit("Black-Lightning Making A Shayri.......")
+    await event.edit("VAMPUSERBOT Making A Shayri.......")
     await asyncio.sleep(1.3)
     h = random.randrange(1, 9)
     if h == 1:
@@ -60,7 +60,7 @@ async def _(event):
         )
 
 
-@bot.on(lightning_cmd(pattern=r"psad$", outgoing=True))
+@bot.on(VAMPBOT_cmd(pattern=r"psad$", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return

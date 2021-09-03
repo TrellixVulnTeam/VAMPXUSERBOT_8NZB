@@ -1,9 +1,9 @@
 import asyncio
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("gangasta ?(.*)"))
+@borg.on(VAMPBOT_cmd("gangasta ?(.*)"))
 async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
         await event.edit("EVERyBOdy")

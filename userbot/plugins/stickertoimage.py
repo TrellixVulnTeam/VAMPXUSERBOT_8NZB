@@ -4,10 +4,10 @@ Avaible commands: .stickertoimage
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="stickertoimage ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="stickertoimage ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

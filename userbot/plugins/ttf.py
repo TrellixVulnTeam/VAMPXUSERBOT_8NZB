@@ -1,7 +1,7 @@
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="ttf ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="ttf ?(.*)"))
 async def get(event):
     name = event.text[5:]
     m = await event.get_reply_message()

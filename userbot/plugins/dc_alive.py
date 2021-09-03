@@ -2,7 +2,7 @@ import asyncio
 import os
 
 from userbot import ALIVE_NAME
-from userbot.utils import lightning_cmd, sudo_cmd
+from userbot.utils import VAMPBOT_cmd, sudo_cmd
 
 PM_IMG = Config.ALIVE_PIC
 version = "4.5"
@@ -33,14 +33,14 @@ pm_caption = "** 𝔅𝔩𝔞𝔠𝔨 𝔏𝔦𝔤𝔥𝔱𝔫𝔦𝔫𝔤 𝙸�
 
 pm_caption += "✘ About My System ✘\n\n"
 pm_caption += "➾ **`ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ`** ☞ 1.17.5\n"
-pm_caption += "➾ **`ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ`** ☞ [ᴊᴏɪɴ](https://t.me/blacklightningot)\n"
-pm_caption += "➾ **`ʟɪᴄᴇɴꜱᴇ`**  ☞ [𝔅𝔩𝔞𝔠𝔨 𝔏𝔦𝔤𝔥𝔱𝔫𝔦𝔫𝔤](https://github.com/KeinShin)\n"
-pm_caption += "➾ **`ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ`** ☞ [𝔅𝔩𝔞𝔠𝔨 𝔏𝔦𝔤𝔥𝔱𝔫𝔦𝔫𝔤](https://github.com/KeinShin/Black-Lightning)\n\n"
+pm_caption += "➾ **`ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ`** ☞ [ᴊᴏɪɴ](https://t.me/VAMPBOT_official)\n"
+pm_caption += "➾ **`ʟɪᴄᴇɴꜱᴇ`**  ☞ [𝔅𝔩𝔞𝔠𝔨 𝔏𝔦𝔤𝔥𝔱𝔫𝔦𝔫𝔤](https://github.com/D15H4NT0P)\n"
+pm_caption += "➾ **`ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ`** ☞ [𝔅𝔩𝔞𝔠𝔨 𝔏𝔦𝔤𝔥𝔱𝔫𝔦𝔫𝔤](https://github.com/D15H4NT0P/VAMPUSERBOT)\n\n"
 pm_caption += "➾ **Spammer Go Away Im His Assitant"
 pm_caption += f"➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
 
 
-@borg.on(lightning_cmd(pattern=r"dalive"))
+@borg.on(VAMPBOT_cmd(pattern=r"dalive"))
 @borg.on(sudo_cmd(pattern=r"dalive", allow_sudo=True))
 async def amireallyalive(yes):
     await yes.get_chat()

@@ -1,11 +1,11 @@
 from telethon import *
 
 from userbot import CMD_HELP
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
 # Fixed by @NOOBGeng Second Member
-@borg.on(lightning_cmd(pattern="dm ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="dm ?(.*)"))
 async def _(dc):
 
     d = dc.pattern_match.group(1)

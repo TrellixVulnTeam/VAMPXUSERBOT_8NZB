@@ -1,10 +1,10 @@
 # For Uniborg
 # (c) @INF1N17Y
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("mention (.*)"))
+@borg.on(VAMPBOT_cmd("mention (.*)"))
 async def _(event):
     if event.fwd_from:
         return

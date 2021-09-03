@@ -22,14 +22,14 @@ from telethon import events
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 from userbot import CMD_HELP, ALIVE_NAME
 
 
 from userbot.utils import register
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Lightning"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "VAMPBOT_"
 
 # ================= CONSTANT =================
 RENDISTR = [
@@ -660,7 +660,7 @@ HIT = [
 
 @register(outgoing=True, pattern=r"^.(\w+)say (.*)")
 async def univsaye(cowmsg):
-    """ For .cowsay module, Black Lightning wrapper for cow which says things. """
+    """ For .cowsay module, VAMPUSERBOT wrapper for cow which says things. """
     if not cowmsg.text[0].isalpha() and cowmsg.text[0] not in ("/", "#", "@", "!"):
         arg = cowmsg.pattern_match.group(1).lower()
         text = cowmsg.pattern_match.group(2)
@@ -1112,13 +1112,13 @@ async def faces(owo):
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit(
-            "So You Wanna Deploy? Here It Is  [Lightning](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FKeinShin%2FBlack-Lightning&template=https%3A%2F%2Fgithub.com%2FKeinShin%2FBlack-Lightning) ! Worth A Try 😌"
+            "So You Wanna Deploy? Here It Is  [VAMPBOT_](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FD15H4NT0P%2FVAMPUSERBOT&template=https%3A%2F%2Fgithub.com%2FD15H4NT0P%2FVAMPUSERBOT) ! Worth A Try 😌"
         )
 
 
 @register(outgoing=True, pattern="^.react$")
 async def react_meme(react):
-    """ Make your Black Lightning react to everything. """
+    """ Make your VAMPUSERBOT react to everything. """
     if not react.text[0].isalpha() and react.text[0] not in ("/", "#", "@", "!"):
         await react.edit(random.choice(FACEREACTS))
 
@@ -1378,14 +1378,14 @@ async def download_video(v_url):
         await v_url.delete()
 
 
-@borg.on(lightning_cmd(pattern=r"hola"))
+@borg.on(VAMPBOT_cmd(pattern=r"hola"))
 async def hi(event):
     if event.fwd_from:
         return
     await event.edit("╔┓┏╦━╦┓╔┓╔━━╗\n║┗┛║┗╣┃║┃║X X  ║\n║┏┓║┏╣┗╣┗╣╰╯║\n╚┛┗╩━╩━╩━╩━━╝")
 
 
-@borg.on(lightning_cmd(pattern=r"plus"))
+@borg.on(VAMPBOT_cmd(pattern=r"plus"))
 async def hi(event):
     if event.fwd_from:
         return
@@ -1394,7 +1394,7 @@ async def hi(event):
     )
 
 
-@borg.on(lightning_cmd(pattern=r"yes"))
+@borg.on(VAMPBOT_cmd(pattern=r"yes"))
 async def hi(event):
     if event.fwd_from:
         return
@@ -1403,7 +1403,7 @@ async def hi(event):
     )
 
 
-@borg.on(lightning_cmd(pattern=r"lool"))
+@borg.on(VAMPBOT_cmd(pattern=r"lool"))
 async def hi(event):
     if event.fwd_from:
         return
@@ -1412,7 +1412,7 @@ async def hi(event):
     )
 
 
-@borg.on(lightning_cmd(pattern=r"android"))
+@borg.on(VAMPBOT_cmd(pattern=r"android"))
 async def hi(event):
     if event.fwd_from:
         return
@@ -1421,7 +1421,7 @@ async def hi(event):
     )
 
 
-@borg.on(lightning_cmd(pattern=r"hmm"))
+@borg.on(VAMPBOT_cmd(pattern=r"hmm"))
 async def hi(event):
     if event.fwd_from:
         return
@@ -1430,7 +1430,7 @@ async def hi(event):
     )
 
 
-@borg.on(lightning_cmd(pattern=r"happybirthday"))
+@borg.on(VAMPBOT_cmd(pattern=r"happybirthday"))
 async def hi(event):
     if event.fwd_from:
         return
@@ -1439,7 +1439,7 @@ async def hi(event):
     )
 
 
-@borg.on(lightning_cmd(pattern=r"WTF"))
+@borg.on(VAMPBOT_cmd(pattern=r"WTF"))
 async def hi(event):
     if event.fwd_from:
         return
@@ -1448,7 +1448,7 @@ async def hi(event):
     )
 
 
-@borg.on(lightning_cmd(pattern=r"lmao"))
+@borg.on(VAMPBOT_cmd(pattern=r"lmao"))
 async def hi(event):
     if event.fwd_from:
         return
@@ -1474,7 +1474,7 @@ async def spammer(e):
             )
 
 
-@borg.on(lightning_cmd(pattern=r"nah"))
+@borg.on(VAMPBOT_cmd(pattern=r"nah"))
 async def hi(event):
     if event.fwd_from:
         return
@@ -1547,7 +1547,7 @@ CMD_HELP.update(
 \n\n.owo\
 \nUsage: UwU\
 \n\n.react\
-\nUsage: Make your Black Lightning react to everything.\
+\nUsage: Make your VAMPUSERBOT react to everything.\
 \n\n.slap\
 \nUsage: reply to slap them with random objects !!\
 \n\n.cry\

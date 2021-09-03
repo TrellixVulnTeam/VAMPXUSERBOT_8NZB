@@ -7,10 +7,10 @@
 import asyncio
 import random
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern=r"engsongs", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern=r"engsongs", outgoing=True))
 async def _(event):
 
     if event.fwd_from:
@@ -158,7 +158,7 @@ async def _(event):
     if x == 23:
 
         await event.edit(
-            "🎶 Just a young gun with the quick fuse \n I was uptight, wanna let loose \n I was dreaming of bigger things \n And wanna leave my own life behind \n Not a yes sir, not a follower \n Fit the box, fit the mold \n Have a seat in the foyer, take a number \n I was lightning before the thunder \n \n Thunder, feel the thunder \n Lightning then the thunder \n Thunder, feel the thunder \n Lightning then the thunder \n Thunder, thunder 🎶 \n **-Thunder**"
+            "🎶 Just a young gun with the quick fuse \n I was uptight, wanna let loose \n I was dreaming of bigger things \n And wanna leave my own life behind \n Not a yes sir, not a follower \n Fit the box, fit the mold \n Have a seat in the foyer, take a number \n I was VAMPBOT_ before the thunder \n \n Thunder, feel the thunder \n VAMPBOT_ then the thunder \n Thunder, feel the thunder \n VAMPBOT_ then the thunder \n Thunder, thunder 🎶 \n **-Thunder**"
         )
 
     if x == 24:

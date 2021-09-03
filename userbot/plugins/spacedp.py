@@ -7,7 +7,7 @@ import urllib
 import requests
 from telethon.tl import functions
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 # Space lovers
 COLLECTION_STRINGS = [
@@ -45,7 +45,7 @@ async def animepp():
     urllib.request.urlretrieve(fy, "friday.jpg")
 
 
-@borg.on(lightning_cmd(pattern="spacedp ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="spacedp ?(.*)"))
 async def main(event):
 
     await event.edit(

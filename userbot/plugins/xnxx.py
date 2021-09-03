@@ -6,10 +6,10 @@
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="xnxx?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="xnxx?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -34,7 +34,7 @@ async def _(event):
             await event.client.send_file(event.chat_id, response.message)
 
 
-@borg.on(lightning_cmd(pattern="picx?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="picx?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -59,7 +59,7 @@ async def _(event):
             await event.client.send_file(event.chat_id, response.message)
 
 
-@borg.on(lightning_cmd(pattern="les?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="les?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

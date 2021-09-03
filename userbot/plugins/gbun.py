@@ -4,10 +4,10 @@ import asyncio
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import ChannelParticipantsAdmins
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="gbun"))
+@borg.on(VAMPBOT_cmd(pattern="gbun"))
 async def gbun(event):
     if event.fwd_from:
         return

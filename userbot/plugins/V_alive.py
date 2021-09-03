@@ -15,7 +15,7 @@ from telethon.errors.rpcerrorlist import ChatSendMediaForbiddenError
 
 from userbot import ALIVE_NAME, CMD_HELP, Lastupdate
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 from . import *
 
@@ -78,7 +78,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-@borg.on(lightning_cmd(pattern=r"valive"))
+@borg.on(VAMPBOT_cmd(pattern=r"valive"))
 @borg.on(sudo_cmd(pattern=r"valive", allow_sudo=True))
 
 async def alive(e):
@@ -104,7 +104,7 @@ async def alive(e):
 ║┣⪼ **Ⲃⲟⲧ Ⲣⲓⲛⳋ** - `{}`
 ║┣⪼ **Ⲣⲩⲧⲏⲟⲛ** - `{}` 
 ║┣⪼ **Ⲧⲉⳑⲉⲧⲏⲟⲛ** - `{}` 
-║┣⪼ [✨𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨](https://github.com/KeinShin/Black-Lightning/)
+║┣⪼ [✨𝐁𝐥𝐚𝐜𝐤-𝐋𝐢𝐠𝐡𝐭𝐧𝐢𝐧𝐠 𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨](https://github.com/D15H4NT0P/VAMPUSERBOT/)
 ║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪
 """.format(
 

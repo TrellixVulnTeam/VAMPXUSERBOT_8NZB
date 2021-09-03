@@ -6,10 +6,10 @@ By : - @Zero_cool7870
 """
 import asyncio
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern=r"meme"))
+@borg.on(VAMPBOT_cmd(pattern=r"meme"))
 async def meme(event):
     if event.fwd_from:
         return
@@ -56,7 +56,7 @@ usage:- .flower
 """
 
 
-@borg.on(lightning_cmd(pattern=r"flower"))
+@borg.on(VAMPBOT_cmd(pattern=r"flower"))
 async def meme(event):
     if event.fwd_from:
         return

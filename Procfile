@@ -1,1 +1,1 @@
-worker: lightningrun.py
+worker: VAMPBOT_run.py

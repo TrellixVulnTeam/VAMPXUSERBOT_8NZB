@@ -5,10 +5,10 @@ import wget
 from youtubesearchpython import SearchVideos
 
 from userbot.Config import Var
-from userbot.utils import lightning_cmd, edit_or_reply, sudo_cmd
+from userbot.utils import VAMPBOT_cmd, edit_or_reply, sudo_cmd
 
 
-@borg.on(lightning_cmd(pattern="ytmusic ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="ytmusic ?(.*)"))
 @borg.on(sudo_cmd(pattern="ytmusic ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
@@ -52,7 +52,7 @@ async def _(event):
         performer=thums,
         supports_streaming=True,
     )
-    await myself_stark.edit("`Song Uploaded. By (C) @blacklightningot`")
+    await myself_stark.edit("`Song Uploaded. By (C) @VAMPBOT_official`")
     for files in (sedlyf, km):
         if files and os.path.exists(files):
             os.remove(files)

@@ -1,12 +1,12 @@
 import asyncio
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 from userbot import ALIVE_NAME
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Black Lightning"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "VAMPUSERBOT"
 
 
-@borg.on(lightning_cmd(pattern=r"police"))
+@borg.on(VAMPBOT_cmd(pattern=r"police"))
 async def _(event):
 
     if event.fwd_from:
@@ -31,7 +31,7 @@ async def _(event):
         "🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵",
         "🔵🔵🔵⬜⬜⬜🔴🔴🔴\n🔵🔵🔵⬜⬜⬜🔴🔴🔴\n🔵🔵🔵⬜⬜⬜🔴🔴🔴",
         "🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵\n🔴🔴🔴⬜⬜⬜🔵🔵🔵",
-        "[Lightning ](https://t.me/lightning_support_group) **Police Service Here**",
+        "[VAMPBOT_ ](https://t.me/VAMPBOT_support) **Police Service Here**",
     ]
 
     for i in animation_ttl:

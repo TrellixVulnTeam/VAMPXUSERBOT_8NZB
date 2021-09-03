@@ -11,10 +11,10 @@ from datetime import datetime
 
 from gtts import gTTS
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="tts (.*)"))
+@borg.on(VAMPBOT_cmd(pattern="tts (.*)"))
 async def _(event):
 
     if event.fwd_from:

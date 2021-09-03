@@ -1,7 +1,7 @@
-from userbot.utils import lightning_cmd, load_module, remove_plugin
+from userbot.utils import VAMPBOT_cmd, load_module, remove_plugin
 
 
-@borg.on(lightning_cmd(pattern="load ?(.*)", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern="load ?(.*)", outgoing=True))
 async def load(event):
     if event.fwd_from:
         return
@@ -19,7 +19,7 @@ async def load(event):
         )
 
 
-@borg.on(lightning_cmd(pattern="unload ?(.*)", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern="unload ?(.*)", outgoing=True))
 async def unload(event):
     if event.fwd_from:
         return

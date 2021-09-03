@@ -2,10 +2,10 @@ import os
 
 import requests
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="colp$", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern="colp$", outgoing=True))
 async def detect(event):
     if Config.DEEP_AI is None:
         return await event.edit("Add VAR DEEP_AI get Api Key from https://deepai.org/")

@@ -35,10 +35,10 @@ from random import randint, uniform
 from PIL import Image, ImageEnhance, ImageOps
 from telethon.tl.types import DocumentAttributeFilename
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="deepfry(?: |$)(.*)", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern="deepfry(?: |$)(.*)", outgoing=True))
 async def deepfryer(event):
     try:
         frycount = int(event.pattern_match.group(1))

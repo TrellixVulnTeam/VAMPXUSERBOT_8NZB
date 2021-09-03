@@ -1,9 +1,9 @@
 import asyncio
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="undlt"))
+@borg.on(VAMPBOT_cmd(pattern="undlt"))
 async def _(event):
     if event.fwd_from:
         return

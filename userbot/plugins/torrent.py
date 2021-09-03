@@ -14,7 +14,7 @@ import os
 
 import aria2p
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 cmd = "aria2c --enable-rpc --rpc-listen-all=false --rpc-listen-port 6800  --max-connection-per-server=10 --rpc-max-request-size=1024M --seed-time=0.01 --min-split-size=10M --follow-torrent=mem --split=10 --daemon=true --allow-overwrite=true"
 EDIT_SLEEP_TIME_OUT = 5
@@ -23,7 +23,7 @@ aria2_is_running = os.system(cmd)
 aria2 = aria2p.API(aria2p.Client(host="http://localhost", port=6800, secret=""))
 
 
-@borg.on(lightning_cmd(pattern=r"magnet"))
+@borg.on(VAMPBOT_cmd(pattern=r"magnet"))
 async def magnet_download(event):
     if event.fwd_from:
         return
@@ -46,7 +46,7 @@ async def magnet_download(event):
     await progress_status(gid=new_gid, event=event, previous=None)
 
 
-@borg.on(lightning_cmd(pattern=r"tor"))
+@borg.on(VAMPBOT_cmd(pattern=r"tor"))
 async def torrent_download(event):
     if event.fwd_from:
         return
@@ -65,7 +65,7 @@ async def torrent_download(event):
     await progress_status(gid=gid, event=event, previous=None)
 
 
-@borg.on(lightning_cmd(pattern=r"url"))
+@borg.on(VAMPBOT_cmd(pattern=r"url"))
 async def magnet_download(event):
     if event.fwd_from:
         return
@@ -86,7 +86,7 @@ async def magnet_download(event):
         await progress_status(gid=new_gid, event=event, previous=None)
 
 
-@borg.on(lightning_cmd(pattern=r"ariaRM"))
+@borg.on(VAMPBOT_cmd(pattern=r"ariaRM"))
 async def remove_all(event):
     if event.fwd_from:
         return
@@ -100,7 +100,7 @@ async def remove_all(event):
     await event.edit("`Removed All Downloads.`")
 
 
-@borg.on(lightning_cmd(pattern=r"show"))
+@borg.on(VAMPBOT_cmd(pattern=r"show"))
 async def show_all(event):
     if event.fwd_from:
         return

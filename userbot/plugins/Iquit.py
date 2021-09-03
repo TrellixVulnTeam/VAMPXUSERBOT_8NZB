@@ -5,10 +5,10 @@ import time
 
 from telethon.tl.functions.channels import LeaveChannelRequest
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("iquit", outgoing=True))
+@borg.on(VAMPBOT_cmd("iquit", outgoing=True))
 async def leave(e):
     if e.fwd_from:
          return

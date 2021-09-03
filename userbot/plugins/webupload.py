@@ -2,11 +2,11 @@
 import asyncio
 import time
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
 @borg.on(
-    lightning_cmd(
+    VAMPBOT_cmd(
         pattern="^.webupload ?(.+?|) (?:--)(anonfiles|transfer|filebin|anonymousfiles|megaupload|bayfiles)"
     )
 )

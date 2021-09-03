@@ -1,8 +1,8 @@
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 from userbot import CMD_HELP
 
 
-@borg.on(lightning_cmd(pattern="cop"))
+@borg.on(VAMPBOT_cmd(pattern="cop"))
 async def _(event):
     if event.fwd_from:
         return

@@ -7,7 +7,7 @@ from telethon.errors import FloodWaitError
 from telethon.tl import functions
 
 from userbot import ALIVE_NAME
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 DEL_TIME_OUT = 60
 
@@ -16,7 +16,7 @@ DEFAULTUSER = (
 )
 
 
-@borg.on(lightning_cmd(pattern="cname"))  # pylint:disable=E0602
+@borg.on(VAMPBOT_cmd(pattern="cname"))  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return

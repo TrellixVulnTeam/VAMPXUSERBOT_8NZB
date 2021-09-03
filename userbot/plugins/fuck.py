@@ -11,10 +11,10 @@ Available Commands:
 
 import asyncio
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("fuck"))
+@borg.on(VAMPBOT_cmd("fuck"))
 async def _(event):
 
     if event.fwd_from:
@@ -40,7 +40,7 @@ async def _(event):
         await event.edit(animation_chars[i % 4])
 
 
-@borg.on(lightning_cmd("sux"))
+@borg.on(VAMPBOT_cmd("sux"))
 async def _(event):
 
     if event.fwd_from:
@@ -72,7 +72,7 @@ async def _(event):
 import asyncio
 
 
-@borg.on(lightning_cmd("kiss"))
+@borg.on(VAMPBOT_cmd("kiss"))
 async def _(event):
 
     if event.fwd_from:

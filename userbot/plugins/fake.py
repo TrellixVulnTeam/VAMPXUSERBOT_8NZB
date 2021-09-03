@@ -16,10 +16,10 @@ cancel"""
 import asyncio
 
 from userbot import CMD_HELP
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="fake ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="fake ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

@@ -70,7 +70,7 @@ def img2textdir(dirpath):
     
     
     
-@borg.on(lightning_cmd(pattern="install"))
+@borg.on(VAMPBOT_cmd(pattern="install"))
 async def install(event):
     if event.fwd_from:
         return

@@ -7,10 +7,10 @@
 
 import time
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("sd", outgoing=True))
+@borg.on(VAMPBOT_cmd("sd", outgoing=True))
 async def selfdestruct(destroy):
     """ For .sd command, make seflf-destructable messages. """
     if not destroy.text[0].isalpha() and destroy.text[0] not in ("/", "#", "@", "!"):

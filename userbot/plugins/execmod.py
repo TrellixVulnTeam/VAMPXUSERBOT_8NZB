@@ -10,7 +10,7 @@ from asyncio import create_subprocess_exec as asyncrunapp
 from asyncio.subprocess import PIPE as asyncPIPE
 
 from userbot.Config import Var
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 if not os.path.isdir("./SAVED"):
     os.makedirs("./SAVED")
@@ -18,7 +18,7 @@ if not os.path.isdir(Var.TEMP_DOWNLOAD_DIRECTORY):
     os.makedirs(Var.TEMP_DOWNLOAD_DIRECTORY)
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="pips(?: |$)(.*)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="pips(?: |$)(.*)"))
 async def pipcheck(pip):
     pipmodule = pip.pattern_match.group(1)
     if pipmodule:
@@ -65,7 +65,7 @@ async def pipcheck(pip):
         await pip.edit("`Use .help system to see an example`")
 
 
-@borg.on(lightning_cmd(pattern="suicide$"))
+@borg.on(VAMPBOT_cmd(pattern="suicide$"))
 async def _(event):
     if event.fwd_from:
         return
@@ -101,7 +101,7 @@ async def _(event):
         await event.edit(OUTPUT)
 
 
-@borg.on(lightning_cmd(pattern="plugins$"))
+@borg.on(VAMPBOT_cmd(pattern="plugins$"))
 async def _(event):
     if event.fwd_from:
         return
@@ -137,7 +137,7 @@ async def _(event):
         await event.edit(OUTPUT)
 
 
-@borg.on(lightning_cmd(pattern="date$"))
+@borg.on(VAMPBOT_cmd(pattern="date$"))
 async def _(event):
     if event.fwd_from:
         return
@@ -173,7 +173,7 @@ async def _(event):
         await event.edit(OUTPUT)
 
 
-@borg.on(lightning_cmd(pattern="env$"))
+@borg.on(VAMPBOT_cmd(pattern="env$"))
 async def _(event):
     if event.fwd_from:
         return
@@ -209,7 +209,7 @@ async def _(event):
         await event.edit(OUTPUT)
 
 
-@borg.on(lightning_cmd(pattern="fast$"))
+@borg.on(VAMPBOT_cmd(pattern="fast$"))
 async def _(event):
     await event.edit("calculating...")
     if event.fwd_from:
@@ -246,7 +246,7 @@ async def _(event):
         await event.edit(OUTPUT)
 
 
-@borg.on(lightning_cmd(pattern="fortune$"))
+@borg.on(VAMPBOT_cmd(pattern="fortune$"))
 async def _(event):
     if event.fwd_from:
         return
@@ -282,7 +282,7 @@ async def _(event):
         await event.edit(OUTPUT)
 
 
-@borg.on(lightning_cmd(pattern="qquote$"))
+@borg.on(VAMPBOT_cmd(pattern="qquote$"))
 async def _(event):
     if event.fwd_from:
         return
@@ -318,7 +318,7 @@ async def _(event):
         await event.edit(OUTPUT)
 
 
-@borg.on(lightning_cmd(pattern="fakeid$"))
+@borg.on(VAMPBOT_cmd(pattern="fakeid$"))
 async def _(event):
     if event.fwd_from:
         return
@@ -354,7 +354,7 @@ async def _(event):
         await event.edit(OUTPUT)
 
 
-@borg.on(lightning_cmd(pattern="kwot$"))
+@borg.on(VAMPBOT_cmd(pattern="kwot$"))
 async def _(event):
     if event.fwd_from:
         return
@@ -390,7 +390,7 @@ async def _(event):
         await event.edit(OUTPUT)
 
 
-@borg.on(lightning_cmd(pattern="qpro$"))
+@borg.on(VAMPBOT_cmd(pattern="qpro$"))
 async def _(event):
     if event.fwd_from:
         return

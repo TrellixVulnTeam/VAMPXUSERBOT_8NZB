@@ -1,8 +1,8 @@
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 from var import Var
 
 
-@borg.on(lightning_cmd(pattern="stat$"))
+@borg.on(VAMPBOT_cmd(pattern="stat$"))
 async def stats(event):
     if event.fwd_from:
         return
@@ -15,7 +15,7 @@ async def stats(event):
     await event.delete()
 
 
-@borg.on(lightning_cmd(pattern="xogame$"))
+@borg.on(VAMPBOT_cmd(pattern="xogame$"))
 async def gamez(event):
     if event.fwd_from:
         return
@@ -28,7 +28,7 @@ async def gamez(event):
     await event.delete()
 
 
-@borg.on(lightning_cmd(pattern="mod ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="mod ?(.*)"))
 async def mod(event):
     if event.fwd_from:
         return

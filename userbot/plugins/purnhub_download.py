@@ -12,10 +12,10 @@ from telethon.errors.rpcerrorlist import (
 )
 from telethon.tl.functions.messages import ImportChatInviteRequest
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("phd ?(.*)"))
+@borg.on(VAMPBOT_cmd("phd ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

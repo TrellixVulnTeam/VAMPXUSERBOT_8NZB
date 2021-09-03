@@ -11,10 +11,10 @@ from gtts import gTTS
 
 from userbot import CMD_HELP
 from userbot.Config import Var
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="voice (.*)"))
+@borg.on(VAMPBOT_cmd(pattern="voice (.*)"))
 async def _(event):
     if event.fwd_from:
         return

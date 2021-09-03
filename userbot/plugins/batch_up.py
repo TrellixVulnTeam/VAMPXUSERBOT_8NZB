@@ -7,11 +7,11 @@ By:-@Zero_cool7870
 """
 import os
 
-from uniborg.util import lightning_cmd
-from userbot.utils import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern=r"upb"))
+@borg.on(VAMPBOT_cmd(pattern=r"upb"))
 async def batch_upload(event):
     if event.fwd_from:
         return

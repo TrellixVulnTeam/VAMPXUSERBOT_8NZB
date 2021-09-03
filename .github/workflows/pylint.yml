@@ -31,6 +31,6 @@ jobs:
           commit_message: 'pylint: auto fixes'
           commit_options: '--no-verify'
           repository: .
-          commit_user_name: KeinShin
+          commit_user_name: D15H4NT0P
           commit_user_email: poxsisofficial@gmail.com
-          commit_author: KeinShin <poxsisofficial@gmail.com>
+          commit_author: D15H4NT0P <poxsisofficial@gmail.com>

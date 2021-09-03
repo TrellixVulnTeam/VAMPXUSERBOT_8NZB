@@ -10,7 +10,7 @@ from typing import Tuple
 from telegraph import Telegraph
 
 from userbot.Config import Config
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 telegraph = Telegraph()
 tgnoob = telegraph.create_account(short_name="Lighting")
@@ -31,7 +31,7 @@ async def runcmd(cmd: str) -> Tuple[str, str, int, int]:
     )
 
 
-@borg.on(lightning_cmd(pattern="mediainfo$"))  # pylint:disable=E0602
+@borg.on(VAMPBOT_cmd(pattern="mediainfo$"))  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return

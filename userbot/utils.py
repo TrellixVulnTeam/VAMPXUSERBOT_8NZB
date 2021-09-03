@@ -83,7 +83,7 @@ def command(**args):
 
         return decorator
 
-def lightning_command(**args):
+def VAMPBOT_command(**args):
     args["func"] = lambda e: e.via_bot_id is None
 
     stack = inspect.stack()
@@ -189,7 +189,7 @@ def load_module(shortname):
         mod.borg = bot
         mod.userbot = bot
         # auto-load
-        mod.lightning_cmd = lightning_cmd
+        mod.VAMPBOT_cmd = VAMPBOT_cmd
         mod.sudo_cmd = sudo_cmd
         mod.edit_or_reply = edit_or_reply
         mod.eor = eor
@@ -222,7 +222,7 @@ def remove_plugin(shortname):
         raise ValueError
 
 
-def lightning_cmd(pattern=None, command=None, **args):
+def VAMPBOT_cmd(pattern=None, command=None, **args):
     args["func"] = lambda e: e.via_bot_id is None
     stack = inspect.stack()
     previous_stack_frame = stack[1]
@@ -423,7 +423,7 @@ def errors_handler(func):
 
             text = "**USERBOT CRASH REPORT**\n\n"
 
-            link = "[Here](https://t.me/lightning_support_group)"
+            link = "[Here](https://t.me/VAMPBOT_support)"
             text += "If you wanna you can report it"
             text += f"- just forward this message {link}.\n"
             text += "Nothing is logged except the fact of error and date\n"
@@ -434,7 +434,7 @@ def errors_handler(func):
             ftext += "\nyou may not report this error if you've"
             ftext += "\nany confidential data here, no one will see your data\n\n"
 
-            ftext += "--------BEGIN Lightning USERBOT TRACEBACK LOG--------"
+            ftext += "--------BEGIN VAMPBOT_ USERBOT TRACEBACK LOG--------"
             ftext += "\nDate: " + date
             ftext += "\nGroup ID: " + str(errors.chat_id)
             ftext += "\nSender ID: " + str(errors.sender_id)
@@ -791,9 +791,9 @@ def start_assistant(shortname):
         mod.only_pvt = only_pvt()
         spec.loader.exec_module(mod)
         sys.modules[
-            "userbot.plugins.assistant" + "Initialising Lightning" + shortname
+            "userbot.plugins.assistant" + "Initialising VAMPBOT_" + shortname
         ] = mod
-        sedprint.info("Lightning Has imported " + shortname)
+        sedprint.info("VAMPBOT_ Has imported " + shortname)
 
 
 def load_assistant(shortname):
@@ -809,8 +809,8 @@ def load_assistant(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        print("Initialising Lightning.")
-        print("Lightning - Imported " + shortname)
+        print("Initialising VAMPBOT_.")
+        print("VAMPBOT_ - Imported " + shortname)
     else:
         import importlib
         import sys
@@ -823,4 +823,4 @@ def load_assistant(shortname):
         mod.tgbot = bot.tgbot
         spec.loader.exec_module(mod)
         sys.modules["userbot.plugins.assistant." + shortname] = mod
-        print("Lightning Has imported " + shortname)
+        print("VAMPBOT_ Has imported " + shortname)

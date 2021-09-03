@@ -1,4 +1,4 @@
-name: KeinShin
+name: D15H4NT0P
 
 on: push
 
@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "lightningsupport"
+          find: "VAMPBOT_support"
 
-          replace: "lightning_support_group"
+          replace: "VAMPBOT_support"
 
       - name: Create Pull Request
 

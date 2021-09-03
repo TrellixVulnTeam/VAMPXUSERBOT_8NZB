@@ -1,12 +1,12 @@
 import asyncio
 
 from userbot import ALIVE_NAME
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Lightning"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "VAMPBOT_"
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="bufferedd( (.*)|$)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="bufferedd( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -18,7 +18,7 @@ async def _(event):
         await event.edit(animation_chars[i % 4])
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="dabba( (.*)|$)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="dabba( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -30,7 +30,7 @@ async def _(event):
         await event.edit(animation_chars[i % 4])
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="kein( (.*)|$)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="kein( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -42,7 +42,7 @@ async def _(event):
         await event.edit(animation_chars[i % 4])
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="dhab( (.*)|$)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="dhab( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -54,7 +54,7 @@ async def _(event):
         await event.edit(animation_chars[i % 4])
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="hart( (.*)|$)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="hart( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -66,7 +66,7 @@ async def _(event):
         await event.edit(animation_chars[i % 4])
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="raped( (.*)|$)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="raped( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -90,7 +90,7 @@ async def _(event):
         await event.edit(animation_chars[i % 11])
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="fnl( (.*)|$)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="fnl( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -102,7 +102,7 @@ async def _(event):
         await event.edit(animation_chars[i % 6])
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="monkey( (.*)|$)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="monkey( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -114,7 +114,7 @@ async def _(event):
         await event.edit(animation_chars[i % 6])
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="herber( (.*)|$)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="herber( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -137,7 +137,7 @@ async def _(event):
         await event.edit(animation_chars[i % 11])
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="hand( (.*)|$)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="hand( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -163,7 +163,7 @@ async def _(event):
         await event.edit(animation_chars[i % 14])
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="gsg( (.*)|$)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="gsg( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -188,7 +188,7 @@ async def _(event):
         await event.edit(animation_chars[i % 13])
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="theart( (.*)|$)"))
+@borg.on(VAMPBOT_cmd(outgoing=True, pattern="theart( (.*)|$)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -219,7 +219,7 @@ async def _(event):
         await event.edit(animation_chars[i % 18])
 
 
-@borg.on(lightning_cmd(pattern=r"fdance"))
+@borg.on(VAMPBOT_cmd(pattern=r"fdance"))
 async def _(event):
     if event.fwd_from:
         return

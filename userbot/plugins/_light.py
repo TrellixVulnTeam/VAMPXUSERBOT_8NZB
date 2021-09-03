@@ -1,8 +1,8 @@
-# Rewritten by @keinshin
+# Rewritten by @D15H4NT0P
 import io
 from  userbot import CMD_LIST, ALIVE_NAME, bot as light
 from userbot import CMD_HELP
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 import asyncio
 from var import Var
 
@@ -12,12 +12,12 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Pls Go To Heroku Vars Then in 
 
 
 
-@light.on(lightning_cmd(pattern="help ?(.*)"))
+@light.on(VAMPBOT_cmd(pattern="help ?(.*)"))
 async def cmd_list(event):
     if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
-        lightningusername = Var.TG_BOT_USER_NAME_BF_HER
+        VAMPBOT_username = Var.TG_BOT_USER_NAME_BF_HER
         input_str = event.pattern_match.group(1)
-        if lightningusername is None or input_str == "text":
+        if VAMPBOT_username is None or input_str == "text":
             string = ""
             for i in CMD_LIST:
                 string += "ℹ️ " + i + "\n"
@@ -42,9 +42,9 @@ async def cmd_list(event):
                 await asyncio.sleep(2)
                 await event.edit(input_str + "  ☹️ is not a valid plugin😞😞!")
         else:
-            light_help_strin = """**Black Lightning Heres With The Detailed Help For CMDs** 😉😉 !\n If Faced Any Bug Please Give The Feed Back at [Lightning Support](https://t.me/lightning_support_group):"""
+            light_help_strin = """**VAMPUSERBOT Heres With The Detailed Help For CMDs** 😉😉 !\n If Faced Any Bug Please Give The Feed Back at [VAMPBOT_ Support](https://t.me/VAMPBOT_support):"""
             results = await bot.inline_query(  # pylint:disable=E0602
-            lightningusername, light_help_strin
+            VAMPBOT_username, light_help_strin
             )
             await results[0].click(
                 event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True

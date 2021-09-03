@@ -3,10 +3,10 @@ Syntax: .filext EXTENSION"""
 import requests
 from bs4 import BeautifulSoup
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="filext (.*)"))
+@borg.on(VAMPBOT_cmd(pattern="filext (.*)"))
 async def _(event):
     if event.fwd_from:
         return

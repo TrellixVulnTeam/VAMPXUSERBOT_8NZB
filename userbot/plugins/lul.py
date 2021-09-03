@@ -3,10 +3,10 @@
 import asyncio
 from collections import deque
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern=r"lul"))
+@borg.on(VAMPBOT_cmd(pattern=r"lul"))
 async def _(event):
     if event.fwd_from:
         return

@@ -8,12 +8,12 @@
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 # ===================================================================================
 
 
-@borg.on(lightning_cmd(r"roundv$"))
+@borg.on(VAMPBOT_cmd(r"roundv$"))
 async def _(event):
     if event.fwd_from:
         return

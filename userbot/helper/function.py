@@ -274,7 +274,7 @@ def convert_toimage(image):
     os.remove(image)
     return "./temp/temp.jpg"
 
-def lightning_convert_to_img(image, filename=None):
+def VAMPBOT_convert_to_img(image, filename=None):
     filename = filename or os.path.join("./temp/", "temp.jpg")
     img = Image.open(image)
     if img.mode != "RGB":

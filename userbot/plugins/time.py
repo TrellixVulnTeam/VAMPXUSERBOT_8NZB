@@ -7,17 +7,17 @@ from datetime import datetime
 
 from PIL import Image, ImageDraw, ImageFont
 
-from userbot.utils import Var, lightning_cmd
+from userbot.utils import Var, VAMPBOT_cmd
 
 FONT_FILE_TO_USE = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
 
 
-@borg.on(lightning_cmd("time ?(.*)"))  # pylint:disable=E0602
+@borg.on(VAMPBOT_cmd("time ?(.*)"))  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return
     current_time = datetime.now().strftime(
-        "⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ \nBlakc lightning TIMEZONE \n LOCATION: India🇮🇳 \n  Time: %H:%M:%S \n  Date: %d.%m.%y \n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡"
+        "⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡ \nBlakc VAMPBOT_ TIMEZONE \n LOCATION: India🇮🇳 \n  Time: %H:%M:%S \n  Date: %d.%m.%y \n⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡"
     )
     start = datetime.now()
     input_str = event.pattern_match.group(1)
@@ -41,7 +41,7 @@ async def _(event):
     await borg.send_file(  # pylint:disable=E0602
         event.chat_id,
         required_file_name,
-        caption="Userbot: Powered by @blacklightningot",
+        caption="Userbot: Powered by @VAMPBOT_official",
         # Courtesy: @ManueI15
         reply_to=reply_msg_id,
     )
@@ -53,7 +53,7 @@ async def _(event):
     await event.delete()
 
 
-@borg.on(lightning_cmd("gtime (.*)"))  # pylint:disable=E0602
+@borg.on(VAMPBOT_cmd("gtime (.*)"))  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return

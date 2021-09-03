@@ -2,10 +2,10 @@ import random
 
 import requests
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="quote ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="quote ?(.*)"))
 async def quote_search(event):
     if event.fwd_from:
         return

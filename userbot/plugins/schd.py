@@ -2,10 +2,10 @@
 Syntax: .schd <time_in_seconds> ;=; <message to send>"""
 import asyncio
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("schd ?(.*)"))
+@borg.on(VAMPBOT_cmd("schd ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

@@ -6,10 +6,10 @@
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="covid ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="covid ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -29,7 +29,7 @@ async def _(event):
             return
         if response.text.startswith("Country"):
             await event.edit(
-                "😶**Country Not Found**😅\n\n[🔴🔴🔴🔴\n ⏩⏩ How to use ⏪⏪\n🔵🔵🔵🔵](https://t.me/blacklightningot)"
+                "😶**Country Not Found**😅\n\n[🔴🔴🔴🔴\n ⏩⏩ How to use ⏪⏪\n🔵🔵🔵🔵](https://t.me/VAMPBOT_official)"
             )
         else:
             await event.delete()

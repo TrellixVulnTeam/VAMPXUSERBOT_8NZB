@@ -10,12 +10,12 @@ import textwrap
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterDocument
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 # RegEx by https://t.me/c/1220993104/500653 ( @SnapDragon7410 )
 
 
-@borg.on(lightning_cmd(pattern="stcr ?(?:(.*?) \| )?(.*)", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern="stcr ?(?:(.*?) \| )?(.*)", outgoing=True))
 async def sticklet(event):
     R = random.randint(0, 256)
     G = random.randint(0, 256)
@@ -62,7 +62,7 @@ async def sticklet(event):
     await event.client.send_file(
         event.chat_id,
         image_stream,
-        caption="Created Using Black Lightning THE USERBOT",
+        caption="Created Using VAMPUSERBOT THE USERBOT",
         reply_to=event.message.reply_to_msg_id,
     )
     # cleanup
@@ -72,7 +72,7 @@ async def sticklet(event):
         pass
 
 
-@borg.on(lightning_cmd(pattern="stcr ?(?:(.*?) \| )?(.*)", allow_sudo=True))
+@borg.on(VAMPBOT_cmd(pattern="stcr ?(?:(.*?) \| )?(.*)", allow_sudo=True))
 async def sticklet(event):
     R = random.randint(0, 256)
     G = random.randint(0, 256)
@@ -119,7 +119,7 @@ async def sticklet(event):
     await event.client.send_file(
         event.chat_id,
         image_stream,
-        caption="Created Using Black Lightning THE USERBOT",
+        caption="Created Using VAMPUSERBOT THE USERBOT",
         reply_to=event.message.reply_to_msg_id,
     )
     # cleanup

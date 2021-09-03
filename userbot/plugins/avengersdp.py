@@ -11,7 +11,7 @@ import urllib
 import requests
 from telethon.tl import functions
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 from userbot import CMD_HELP
 
 COLLECTION_STRING = [
@@ -51,11 +51,11 @@ async def animepp():
     urllib.request.urlretrieve(fy, "donottouch.jpg")
 
 
-@borg.on(lightning_cmd(pattern="avengersdp ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="avengersdp ?(.*)"))
 async def main(event):
 
     await event.edit(
-        "**Starting Avengers Profile Pic...\n\nDone !!! Check Your DP By @blacklightningot**"
+        "**Starting Avengers Profile Pic...\n\nDone !!! Check Your DP By @VAMPBOT_official**"
     )
 
     while True:

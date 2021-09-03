@@ -6,10 +6,10 @@ import asyncio
 
 from telethon import events
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="degi ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="degi ?(.*)"))
 async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
         await event.edit("Wo")

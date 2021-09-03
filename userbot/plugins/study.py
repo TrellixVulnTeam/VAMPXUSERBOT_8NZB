@@ -1,7 +1,7 @@
 """night Plugin for Sensible_userbot
 Syntax: .study REASON"""
 
-# this is plugin is by @keinshin for Black Lightning
+# this is plugin is by @D15H4NT0P for VAMPUSERBOT
 # kang with credits
 
 import asyncio
@@ -11,7 +11,7 @@ from telethon import events
 from telethon.tl import functions, types
 
 from userbot import ALIVE_NAME
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 global USER_night  # pylint:disable=E0602
 global night_time  # pylint:disable=E0602
@@ -42,7 +42,7 @@ async def set_not_night(event):
                 event.chat_id,
                 "Please set `PRIVATE_GROUP_BOT_API_ID` "
                 + "for the proper functioning of study functionality "
-                + "in @blacklightningot \n\n `{}`".format(str(e)),
+                + "in @VAMPBOT_official \n\n `{}`".format(str(e)),
                 reply_to=event.message.id,
                 silent=True,
             )
@@ -50,7 +50,7 @@ async def set_not_night(event):
         night_time = None  # pylint:disable=E0602
 
 
-@borg.on(lightning_cmd(pattern=r"study ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"study ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

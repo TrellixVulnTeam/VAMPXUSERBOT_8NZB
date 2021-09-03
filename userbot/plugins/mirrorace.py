@@ -10,10 +10,10 @@ from datetime import datetime
 import aiohttp
 import requests
 
-from uniborg.util import lightning_cmd, progress
+from uniborg.util import VAMPBOT_cmd, progress
 
 
-@borg.on(lightning_cmd(pattern="ma ?(.*)", allow_sudo=True))
+@borg.on(VAMPBOT_cmd(pattern="ma ?(.*)", allow_sudo=True))
 async def _(event):
     if event.fwd_from:
         return

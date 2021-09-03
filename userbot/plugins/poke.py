@@ -1,16 +1,16 @@
-# Inspired By @xdityas code and Modified By @keinshin
+# Inspired By @xdityas code and Modified By @D15H4NT0P
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 from userbot import ALIVE_NAME
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 naam = str(ALIVE_NAME)
 
 bot = "@inhumanDexBot"
 
 
-@borg.on(lightning_cmd("poke ?(.*)"))
+@borg.on(VAMPBOT_cmd("poke ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

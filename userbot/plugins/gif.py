@@ -1,16 +1,16 @@
-# Created  By @keinshin
+# Created  By @D15H4NT0P
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 from userbot import ALIVE_NAME
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Pls Go To Heroku Vars Then in  `ALIVE_NAME`place You Telegram `Username` "
 bot = "@gif"
 
 
-@borg.on(lightning_cmd("gif ?(.*)"))
+@borg.on(VAMPBOT_cmd("gif ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return

@@ -10,7 +10,7 @@ import urllib
 import requests
 from telethon.tl import functions
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 COLLECTION_STRING = ["Predator-Wallpapers-Backgrounds", "Alien-vs-Predator-Wallpaper"]
 
@@ -32,7 +32,7 @@ async def animepp():
     urllib.request.urlretrieve(fy, "donottouch.jpg")
 
 
-@borg.on(lightning_cmd(pattern="predatordp ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="predatordp ?(.*)"))
 async def main(event):
     await event.edit("**Starting predator Profile Pic.**")  # Owner @NihiNivi
     while True:

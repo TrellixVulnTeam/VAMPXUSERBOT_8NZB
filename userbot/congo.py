@@ -1,6 +1,6 @@
 import random
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 RUNSREACTS = [
     "`Congratulations and BRAVO!`",
@@ -16,7 +16,7 @@ RUNSREACTS = [
 ]
 
 
-@borg.on(lightning_cmd(pattern="congo"))
+@borg.on(VAMPBOT_cmd(pattern="congo"))
 async def _(event):
     if event.fwd_from:
         return

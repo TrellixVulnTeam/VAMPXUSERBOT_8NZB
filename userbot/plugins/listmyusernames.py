@@ -3,10 +3,10 @@
 
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("listmyusernames"))
+@borg.on(VAMPBOT_cmd("listmyusernames"))
 async def mine(event):
     """ For .reserved command, get a list of your reserved usernames. """
     result = await bot(GetAdminedPublicChannelsRequest())

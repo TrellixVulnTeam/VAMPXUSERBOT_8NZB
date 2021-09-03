@@ -5,10 +5,10 @@
 Syntax: .wikipedia Query"""
 import wikipedia
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="wikipedia (.*)"))
+@borg.on(VAMPBOT_cmd(pattern="wikipedia (.*)"))
 async def _(event):
     if event.fwd_from:
         return

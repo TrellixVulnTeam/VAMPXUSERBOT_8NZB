@@ -4,10 +4,10 @@ type `.gm` and to see the fun.-
 """
 import asyncio
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern="egm ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern="egm ?(.*)"))
 async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in ("/", "#", "@", "!"):
         await event.edit(

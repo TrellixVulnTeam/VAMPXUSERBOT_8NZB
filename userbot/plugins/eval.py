@@ -8,10 +8,10 @@ import io
 import sys
 import traceback
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("eval"))
+@borg.on(VAMPBOT_cmd("eval"))
 async def _(event):
     if event.fwd_from:
         return

@@ -7,7 +7,7 @@
 import asyncio
 import random
 from userbot import ALIVE_NAME
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 #Constant
 yo = "https://telegra.ph/file/11198632a306a03723d9d.mp4"
 yo2 = "https://telegra.ph/file/72d3a8c9d53b5c2ca927c.mp4"
@@ -18,7 +18,7 @@ remd = bot.me.id
 cap =f"YEAH BRO 𝙷𝙰𝙿𝙿𝚈 𝙸𝙽𝙳𝙴𝙿𝙴𝙽𝙳𝙴𝙽𝙲𝙴 𝙳𝙰𝚈🇮🇳 TO [{DEFAULTUSER}](tg://user?id={remd})\n DONT FORGET TO CLICK 👉[dis](http://wish-style.com/?n=Rishisuperyo)👈\n ~ @Rishisuperyo"
 #bruh
 
-@borg.on(lightning_cmd(pattern=r"hpind", outgoing=True))
+@borg.on(VAMPBOT_cmd(pattern=r"hpind", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return

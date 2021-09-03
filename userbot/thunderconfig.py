@@ -86,7 +86,7 @@ class Config(object):
     SPOTIFY_BIO_PREFIX = os.environ.get("SPOTIFY_BIO_PREFIX", None)
     ASSISTANT_LOG = int(os.environ.get("ASSISTANT_LOG", False))
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/KeinShin/Black-Lightning"
+        "UPSTREAM_REPO", "https://github.com/D15H4NT0P/VAMPUSERBOT"
     )
     ALIVE_PIC = os.environ.get(
         "ALIVE_IMAGE", "https://telegra.ph/file/63abc60224dc567e3d441.jpg"
@@ -109,7 +109,7 @@ class Config(object):
     NC_LOG_P_M_S = bool(os.environ.get("NC_LOG_P_M_S", False))
     ENABLE_ASSISTANTBOT = os.environ.get("ENABLE_ASSISTANTBOT", "ENABLE")
     PM_DATA = os.environ.get("PM_DATA", "ENABLE")
-    LIGHTNING_PRO = os.environ.get("LIGHTNING_PRO", "YES")
+    VAMPBOT_PRO = os.environ.get("VAMPBOT_PRO", "YES")
     TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "IndianBot")
     ANTISPAM_FEATURE = os.environ.get("ANTISPAM_FEATURE", "ENABLE")
     ANTI_SPAMINC_TOKEN = os.environ.get("ANTI_SPAMINC_TOKEN", None)

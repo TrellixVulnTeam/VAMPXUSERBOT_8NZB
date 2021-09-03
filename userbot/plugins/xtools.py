@@ -6,10 +6,10 @@ from datetime import datetime
 
 import requests
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("xtools (.*)"))
+@borg.on(VAMPBOT_cmd("xtools (.*)"))
 async def _(event):
     if event.fwd_from:
         return

@@ -1,9 +1,9 @@
 """use command .ducduckgo"""
 
-from uniborg.util import lightning_cmd
+from uniborg.util import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd("ducduckgo (.*)"))
+@borg.on(VAMPBOT_cmd("ducduckgo (.*)"))
 async def _(event):
     if event.fwd_from:
         return

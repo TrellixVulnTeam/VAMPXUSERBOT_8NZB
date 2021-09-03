@@ -1,10 +1,10 @@
 import pyfiglet
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
 # @command(pattern="^.figlet ?(.*)", outgoing=True)
-@borg.on(lightning_cmd(pattern=r"figlet ?(.*)"))
+@borg.on(VAMPBOT_cmd(pattern=r"figlet ?(.*)"))
 async def figlet(event):
     if event.fwd_from:
         return

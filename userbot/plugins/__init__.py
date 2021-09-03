@@ -1,6 +1,6 @@
 from userbot import topfunc
 from userbot.thunderconfig import Config
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 from var import Var
 
 idgen = topfunc.id_generator
@@ -62,12 +62,12 @@ if Config.PRIVATE_GROUP_BOT_API_ID is None:
 else:
     BOTLOG = True
     BOTLOG_CHATID = Config.PRIVATE_GROUP_BOT_API_ID
-if Var.LIGHTNING_PRO.lower() == "NO":
+if Var.VAMPBOT_PRO.lower() == "NO":
     light_pr = "NO"
 else:
-    lightning_pr = "YES"
+    VAMPBOT_pr = "YES"
 
-lightning_status = (
+VAMPBOT_status = (
     f"Sorry Sir In Some Plugin There Is A Telegram Bug\n"
     f"Pls Try To Understand\n"
     f"Instead Do .help <cmd name>\n\n"

@@ -13,10 +13,10 @@ Available Commands:
 
 import asyncio
 
-from userbot.utils import lightning_cmd
+from userbot.utils import VAMPBOT_cmd
 
 
-@borg.on(lightning_cmd(pattern=r"call"))
+@borg.on(VAMPBOT_cmd(pattern=r"call"))
 async def _(event):
 
     if event.fwd_from:
@@ -37,7 +37,7 @@ async def _(event):
         "`Connecting To Telegram Headquarters...`",
         "`Call Connected.`",
         "`Telegram: Hello This is Telegram HQ. Who is this?`",
-        "`Me: Yo this is` [Lightning SUpport](t.me/blacklightningott) ,`Please Connect me to my idiot bro,Ayush Durov`",
+        "`Me: Yo this is` [VAMPBOT_ SUpport](t.me/VAMPBOT_officialt) ,`Please Connect me to my idiot bro,Ayush Durov`",
         "`User Authorised.`",
         "`Calling Pavel Durov`  `At +916969696969`",
         "`Private  Call Connected...`",
