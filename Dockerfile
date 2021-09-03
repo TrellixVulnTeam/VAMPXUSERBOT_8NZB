@@ -57,4 +57,4 @@ RUN wget https://raw.githubusercontent.com/D15H4NT0P/VAMPUSERBOT/master/requirem
 #Start Fumkin
 RUN pip3 install -r requirements.txt
 
-CMD ["python3","VAMPBOT_run.py"]
+CMD ["python3","VAMPBOTrun.py"]
